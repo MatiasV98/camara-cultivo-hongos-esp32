@@ -1,14 +1,19 @@
-# Control térmico PI sobre ESP32 — identificación y control de una planta Peltier
+# Cámara de cultivo de hongos — control de temperatura con ESP32
 
-Identificación experimental y control PI de un sistema térmico de pequeña escala: una celda Peltier
-que calienta un reservorio de 450 mL de agua, medida con un sensor DS18B20 y controlada por un ESP32.
-Incluye el firmware, los datos crudos y procesados de los ensayos, los scripts de MATLAB y el informe técnico.
+Subsistema térmico de un prototipo de cámara automatizada para cultivar hongos comestibles en espacios
+reducidos. Una celda Peltier acondiciona un reservorio de 450 mL de agua; ese agua está pensada para
+alimentar un nebulizador ultrasónico que regule a la vez la humedad y la temperatura de la cámara.
+
+Este repositorio cubre la parte implementada y ensayada: la identificación experimental de la planta
+térmica y su control PI sobre un ESP32, con un sensor DS18B20. Incluye el firmware, los datos crudos y
+procesados de los ensayos, los scripts de MATLAB y el informe técnico.
 
 Trabajo realizado para la asignatura **Sistemas de Control** (Ingeniería Electrónica, UTN Facultad
 Regional Paraná, 2025). Docentes: Martín F. Picó, Gustavo Katzenelson y Francisco A. Sala.
 
-> **English summary.** Experimental identification and PI control of a small thermal plant
-> (Peltier cell + 450 mL water reservoir, DS18B20 sensor, ESP32). Step tests were fitted to a
+> **English summary.** Temperature control for an automated mushroom-growing chamber prototype:
+> experimental identification and PI control of its thermal subsystem (Peltier cell + 450 mL water
+> reservoir, DS18B20 sensor, ESP32). Step tests were fitted to a
 > first-order-plus-dead-time model (K = 24.5 °C, τ = 2928.6 s, L = 133 s). Two PI designs (IMC and
 > dominant-pole cancellation) were derived and tested on the real plant, including disturbance
 > rejection. The repository contains the ESP32 firmware with a web interface, raw and cleaned test
@@ -108,8 +113,8 @@ Los scripts de MATLAB se ejecutan desde la carpeta `matlab/` y leen los datos co
 
 - El actuador es todo-nada (relé); una etapa PWM de potencia daría mayor resolución en la acción de control.
 - El modelo es válido alrededor del punto de operación ensayado; no representa saturaciones ni otras no linealidades.
-- La planta forma parte de un prototipo de cámara de cultivo en la que el agua acondicionada alimenta un
-  nebulizador ultrasónico. El lazo de humedad y la integración con la cámara quedaron como trabajo futuro.
+- Falta el resto de la cámara de cultivo: el lazo de humedad con el nebulizador ultrasónico, la integración
+  de los dos lazos y los ensayos con cultivos reales quedaron como trabajo futuro.
 
 ## Autor
 
