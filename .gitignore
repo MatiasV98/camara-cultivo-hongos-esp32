@@ -1,0 +1,6 @@
+firmware/**/config.h
+.pio/
+.vscode/
+*.asv
+*.import
+*.translation
