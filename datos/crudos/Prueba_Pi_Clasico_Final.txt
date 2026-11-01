@@ -1,0 +1,3050 @@
+
+
+⚙️ Configuración - Setpoint: 25.0°C, Kc: 0.650, Ti: 2200s, Ts: 2s, Period: 10000ms
+
+
+
+TYPE,Time(s),Temperature(C),Setpoint(C),Error(C),ControlSignal,Integral,RelayState,OnTime(s)
+INICIO,0.0,22.69,25.0,0.0,0.000,0,0,0.0
+DATA,0.0,22.69,25.0,2.31,1.000,5,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.0s | OnTime: 0.0s
+DATA,2.0,22.69,25.0,2.31,1.000,9,0,0.0
+🌡️ Temp: 22.69°C | Setpoint: 25.0°C | Error: 2.31
+DATA,4.0,22.69,25.0,2.31,1.000,14,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 5.0s | OnTime: 0.0s
+DATA,6.0,22.69,25.0,2.31,1.000,19,0,0.0
+DATA,8.0,22.69,25.0,2.31,1.000,23,0,0.0
+🔧 Control - Error: 2.31 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,10.1,22.69,25.0,2.31,1.000,28,0,10.0
+DATA,10.1,22.69,25.0,2.31,1.000,28,0,10.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.0s | OnTime: 10.0s
+🔥 Relay ACTIVADO
+DATA,12.1,22.69,25.0,2.31,1.000,32,1,10.0
+🌡️ Temp: 22.69°C | Setpoint: 25.0°C | Error: 2.31
+DATA,14.1,22.69,25.0,2.31,1.000,37,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 5.0s | OnTime: 10.0s
+DATA,16.1,22.69,25.0,2.31,1.000,42,1,10.0
+DATA,18.1,22.69,25.0,2.31,1.000,46,1,10.0
+🔧 Control - Error: 2.31 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,20.1,22.69,25.0,2.31,1.000,51,1,10.0
+DATA,20.1,22.69,25.0,2.31,1.000,51,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 0.0s | OnTime: 10.0s
+DATA,22.1,22.69,25.0,2.31,1.000,56,1,10.0
+🌡️ Temp: 22.69°C | Setpoint: 25.0°C | Error: 2.31
+DATA,24.1,22.69,25.0,2.31,1.000,60,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 5.0s | OnTime: 10.0s
+DATA,26.1,22.69,25.0,2.31,1.000,65,1,10.0
+DATA,28.1,22.69,25.0,2.31,1.000,69,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 2.31 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,30.1,22.69,25.0,2.31,1.000,74,0,10.0
+DATA,30.1,22.69,25.0,2.31,1.000,74,0,10.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.0s | OnTime: 10.0s
+🔥 Relay ACTIVADO
+DATA,32.1,22.69,25.0,2.31,1.000,79,1,10.0
+🌡️ Temp: 22.69°C | Setpoint: 25.0°C | Error: 2.31
+DATA,34.1,22.69,25.0,2.31,1.000,83,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 5.0s | OnTime: 10.0s
+DATA,36.1,22.69,25.0,2.31,1.000,88,1,10.0
+DATA,38.1,22.69,25.0,2.31,1.000,93,1,10.0
+❄️ Relay DESACTIVADO
+🔄 Relay State: OFF | Tiempo en periodo: 10.0s | OnTime: 10.0s
+🔧 Control - Error: 2.31 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,40.1,22.69,25.0,2.31,1.000,97,0,10.0
+DATA,40.1,22.69,25.0,2.31,1.000,97,0,10.0
+🔥 Relay ACTIVADO
+DATA,42.1,22.69,25.0,2.31,1.000,102,1,10.0
+🌡️ Temp: 22.75°C | Setpoint: 25.0°C | Error: 2.25
+DATA,44.1,22.75,25.0,2.25,1.000,106,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 5.0s | OnTime: 10.0s
+DATA,46.1,22.69,25.0,2.31,1.000,111,1,10.0
+DATA,48.1,22.69,25.0,2.31,1.000,116,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 10.0s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 2.31 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,50.2,22.69,25.0,2.31,1.000,120,0,10.0
+DATA,50.2,22.69,25.0,2.31,1.000,120,0,10.0
+🔥 Relay ACTIVADO
+DATA,52.2,22.69,25.0,2.31,1.000,125,1,10.0
+🌡️ Temp: 22.69°C | Setpoint: 25.0°C | Error: 2.31
+DATA,54.2,22.69,25.0,2.31,1.000,129,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 5.0s | OnTime: 10.0s
+DATA,56.2,22.69,25.0,2.31,1.000,134,1,10.0
+DATA,58.2,22.69,25.0,2.31,1.000,139,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 10.0s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 2.31 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,60.2,22.69,25.0,2.31,1.000,143,0,10.0
+DATA,60.2,22.69,25.0,2.31,1.000,143,0,10.0
+🔥 Relay ACTIVADO
+DATA,62.2,22.69,25.0,2.31,1.000,148,1,10.0
+🌡️ Temp: 22.69°C | Setpoint: 25.0°C | Error: 2.31
+DATA,64.2,22.69,25.0,2.31,1.000,153,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,66.2,22.69,25.0,2.31,1.000,157,1,10.0
+DATA,68.2,22.75,25.0,2.25,1.000,162,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 2.31 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,70.2,22.69,25.0,2.31,1.000,166,0,10.0
+DATA,70.2,22.69,25.0,2.31,1.000,166,0,10.0
+🔥 Relay ACTIVADO
+DATA,72.2,22.75,25.0,2.25,1.000,171,1,10.0
+🌡️ Temp: 22.69°C | Setpoint: 25.0°C | Error: 2.31
+DATA,74.2,22.69,25.0,2.31,1.000,175,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,76.2,22.75,25.0,2.25,1.000,180,1,10.0
+DATA,78.2,22.69,25.0,2.31,1.000,185,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 2.25 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,80.3,22.75,25.0,2.25,1.000,189,0,10.0
+DATA,80.3,22.75,25.0,2.25,1.000,189,0,10.0
+🔥 Relay ACTIVADO
+DATA,82.3,22.75,25.0,2.25,1.000,194,1,10.0
+🌡️ Temp: 22.75°C | Setpoint: 25.0°C | Error: 2.25
+DATA,84.3,22.75,25.0,2.25,1.000,198,1,10.0
+                                                                   Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,86.3,22.81,25.0,2.19,1.000,202,1,10.0
+DATA,88.3,22.81,25.0,2.19,1.000,207,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 2.19 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,90.3,22.81,25.0,2.19,1.000,211,0,10.0
+DATA,90.3,22.81,25.0,2.19,1.000,211,0,10.0
+🔥 Relay ACTIVADO
+DATA,92.3,22.81,25.0,2.19,1.000,216,1,10.0
+🌡️ Temp: 22.87°C | Setpoint: 25.0°C | Error: 2.12
+DATA,94.3,22.87,25.0,2.12,1.000,220,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,96.3,22.87,25.0,2.12,1.000,224,1,10.0
+DATA,98.3,22.87,25.0,2.12,1.000,228,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 2.06 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,100.3,22.94,25.0,2.06,1.000,232,0,10.0
+DATA,100.3,22.94,25.0,2.06,1.000,232,0,10.0
+🔥 Relay ACTIVADO
+DATA,102.3,22.94,25.0,2.06,1.000,237,1,10.0
+🌡️ Temp: 23.00°C | Setpoint: 25.0°C | Error: 2.00
+DATA,104.4,23.00,25.0,2.00,1.000,241,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,106.4,23.00,25.0,2.00,1.000,245,1,10.0
+DATA,108.4,23.00,25.0,2.00,1.000,249,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 2.00 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,110.4,23.00,25.0,2.00,1.000,253,0,10.0
+DATA,110.4,23.00,25.0,2.00,1.000,253,0,10.0
+🔥 Relay ACTIVADO
+DATA,112.4,23.06,25.0,1.94,1.000,256,1,10.0
+🌡️ Temp: 23.06°C | Setpoint: 25.0°C | Error: 1.94
+DATA,114.4,23.06,25.0,1.94,1.000,260,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,116.4,23.06,25.0,1.94,1.000,264,1,10.0
+DATA,118.4,23.12,25.0,1.87,1.000,268,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.87 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,120.4,23.12,25.0,1.87,1.000,272,0,10.0
+DATA,120.4,23.12,25.0,1.87,1.000,272,0,10.0
+🔥 Relay ACTIVADO
+DATA,122.4,23.19,25.0,1.81,1.000,275,1,10.0
+🌡️ Temp: 23.19°C | Setpoint: 25.0°C | Error: 1.81
+DATA,124.4,23.19,25.0,1.81,1.000,279,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,126.4,23.19,25.0,1.81,1.000,283,1,10.0
+DATA,128.5,23.25,25.0,1.75,1.000,286,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.75 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,130.5,23.25,25.0,1.75,1.000,290,0,10.0
+DATA,130.5,23.25,25.0,1.75,1.000,290,0,10.0
+🔥 Relay ACTIVADO
+DATA,132.5,23.25,25.0,1.75,1.000,293,1,10.0
+🌡️ Temp: 23.25°C | Setpoint: 25.0°C | Error: 1.75
+DATA,134.5,23.25,25.0,1.75,1.000,297,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,136.5,23.31,25.0,1.69,1.000,300,1,10.0
+DATA,138.5,23.31,25.0,1.69,1.000,303,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.69 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,140.5,23.31,25.0,1.69,1.000,307,0,10.0
+DATA,140.5,23.31,25.0,1.69,1.000,307,0,10.0
+🔥 Relay ACTIVADO
+DATA,142.5,23.31,25.0,1.69,1.000,310,1,10.0
+🌡️ Temp: 23.31°C | Setpoint: 25.0°C | Error: 1.69
+DATA,144.5,23.31,25.0,1.69,1.000,313,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,146.5,23.37,25.0,1.62,1.000,317,1,10.0
+DATA,148.5,23.37,25.0,1.62,1.000,320,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.62 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,150.5,23.37,25.0,1.62,1.000,323,0,10.0
+DATA,150.5,23.37,25.0,1.62,1.000,323,0,10.0
+🔥 Relay ACTIVADO
+DATA,152.5,23.44,25.0,1.56,1.000,326,1,10.0
+🌡️ Temp: 23.44°C | Setpoint: 25.0°C | Error: 1.56
+DATA,154.5,23.44,25.0,1.56,1.000,329,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,156.5,23.44,25.0,1.56,1.000,333,1,10.0
+DATA,158.6,23.50,25.0,1.50,1.000,336,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.50 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,160.6,23.50,25.0,1.50,1.000,339,0,10.0
+DATA,160.6,23.50,25.0,1.50,1.000,339,0,10.0
+🔥 Relay ACTIVADO
+DATA,162.6,23.50,25.0,1.50,1.000,342,1,10.0
+🌡️ Temp: 23.50°C | Setpoint: 25.0°C | Error: 1.50
+DATA,164.6,23.50,25.0,1.50,1.000,345,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,166.6,23.56,25.0,1.44,1.000,347,1,10.0
+DATA,168.6,23.56,25.0,1.44,1.000,350,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.44 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,170.6,23.56,25.0,1.44,1.000,353,0,10.0
+DATA,170.6,23.56,25.0,1.44,1.000,353,0,10.0
+🔥 Relay ACTIVADO
+DATA,172.6,23.62,25.0,1.37,0.999,356,1,10.0
+🌡️ Temp: 23.62°C | Setpoint: 25.0°C | Error: 1.37
+DATA,174.6,23.62,25.0,1.37,1.000,359,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,176.6,23.62,25.0,1.37,1.000,361,1,10.0
+DATA,178.6,23.69,25.0,1.31,0.961,364,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.37 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,180.6,23.62,25.0,1.37,1.000,367,0,10.0
+DATA,180.6,23.62,25.0,1.37,1.000,367,0,10.0
+🔥 Relay ACTIVADO
+DATA,182.6,23.69,25.0,1.31,0.962,369,1,10.0
+🌡️ Temp: 23.75°C | Setpoint: 25.0°C | Error: 1.25
+DATA,184.6,23.75,25.0,1.25,0.922,372,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,186.7,23.75,25.0,1.25,0.923,374,1,10.0
+DATA,188.7,23.75,25.0,1.25,0.924,377,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.25 | Control Signal: 0.925 | OnTime: 10.0s
+CLASICO,190.7,23.75,25.0,1.25,0.925,379,0,10.0
+DATA,190.7,23.75,25.0,1.25,0.925,379,0,10.0
+🔥 Relay ACTIVADO
+DATA,192.7,23.75,25.0,1.25,0.925,382,1,10.0
+🌡️ Temp: 23.81°C | Setpoint: 25.0°C | Error: 1.19
+DATA,194.7,23.81,25.0,1.19,0.885,384,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 10.0s
+DATA,196.7,23.81,25.0,1.19,0.886,387,1,10.0
+DATA,198.7,23.87,25.0,1.12,0.846,389,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 9.9s | OnTime: 10.0s
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.12 | Control Signal: 0.847 | OnTime: 8.5s
+CLASICO,200.7,23.87,25.0,1.12,0.847,391,0,8.5
+DATA,200.7,23.87,25.0,1.12,0.847,391,0,8.5
+🔥 Relay ACTIVADO
+DATA,202.7,23.87,25.0,1.12,0.847,393,1,8.5
+🌡️ Temp: 23.87°C | Setpoint: 25.0°C | Error: 1.12
+DATA,204.7,23.87,25.0,1.12,0.848,396,1,8.5
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 8.5s
+DATA,206.7,23.94,25.0,1.06,0.808,398,1,8.5
+DATA,208.7,23.87,25.0,1.12,0.849,400,1,8.5
+❄️ Relay DESACTIVADO
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 8.5s
+🔧 Control - Error: 1.06 | Control Signal: 0.809 | OnTime: 8.1s
+CLASICO,210.7,23.94,25.0,1.06,0.809,402,0,8.1
+DATA,210.7,23.94,25.0,1.06,0.809,402,0,8.1
+🔥 Relay ACTIVADO
+DATA,212.7,23.94,25.0,1.06,0.810,404,1,8.1
+🌡️ Temp: 23.94°C | Setpoint: 25.0°C | Error: 1.06
+DATA,214.7,23.94,25.0,1.06,0.811,406,1,8.1
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 8.1s
+DATA,216.7,23.94,25.0,1.06,0.811,409,1,8.1
+DATA,218.7,24.00,25.0,1.00,0.771,411,1,8.1
+❄️ Relay DESACTIVADO
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 8.1s
+🔧 Control - Error: 1.00 | Control Signal: 0.772 | OnTime: 7.7s
+CLASICO,220.8,24.00,25.0,1.00,0.772,413,0,7.7
+DATA,220.8,24.00,25.0,1.00,0.772,413,0,7.7
+🔥 Relay ACTIVADO
+DATA,222.8,24.06,25.0,0.94,0.732,414,1,7.7
+🌡️ Temp: 24.06°C | Setpoint: 25.0°C | Error: 0.94
+DATA,224.8,24.06,25.0,0.94,0.732,416,1,7.7
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 7.7s
+DATA,226.8,24.06,25.0,0.94,0.733,418,1,7.7
+❄️ Relay DESACTIVADO
+DATA,228.8,24.12,25.0,0.88,0.693,420,0,7.7
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 7.7s
+🔧 Control - Error: 0.94 | Control Signal: 0.734 | OnTime: 7.3s
+CLASICO,230.8,24.06,25.0,0.94,0.734,422,0,7.3
+DATA,230.8,24.06,25.0,0.94,0.734,422,0,7.3
+🔥 Relay ACTIVADO
+DATA,232.8,24.12,25.0,0.88,0.694,424,1,7.3
+🌡️ Temp: 24.19°C | Setpoint: 25.0°C | Error: 0.81
+DATA,234.8,24.19,25.0,0.81,0.654,425,1,7.3
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 7.3s
+DATA,236.8,24.19,25.0,0.81,0.654,427,1,7.3
+❄️ Relay DESACTIVADO
+DATA,238.8,24.19,25.0,0.81,0.655,428,0,7.3
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 7.3s
+🔧 Control - Error: 0.81 | Control Signal: 0.655 | OnTime: 6.6s
+CLASICO,240.8,24.19,25.0,0.81,0.655,430,0,6.6
+DATA,240.8,24.19,25.0,0.81,0.655,430,0,6.6
+🔥 Relay ACTIVADO
+DATA,242.8,24.19,25.0,0.81,0.656,432,1,6.6
+🌡️ Temp: 24.25°C | Setpoint: 25.0°C | Error: 0.75
+DATA,244.8,24.25,25.0,0.75,0.615,433,1,6.6
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 6.6s
+DATA,246.8,24.31,25.0,0.69,0.575,435,1,6.6
+❄️ Relay DESACTIVADO
+DATA,248.8,24.25,25.0,0.75,0.616,436,0,6.6
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 6.6s
+🔧 Control - Error: 0.69 | Control Signal: 0.576 | OnTime: 5.8s
+CLASICO,250.8,24.31,25.0,0.69,0.576,437,0,5.8
+DATA,250.8,24.31,25.0,0.69,0.576,437,0,5.8
+🔥 Relay ACTIVADO
+DATA,252.9,24.31,25.0,0.69,0.577,439,1,5.8
+🌡️ Temp: 24.31°C | Setpoint: 25.0°C | Error: 0.69
+DATA,254.9,24.31,25.0,0.69,0.577,440,1,5.8
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 5.8s
+                                                                 ️ Relay DESACTIVADO
+DATA,256.9,24.37,25.0,0.62,0.537,441,0,5.8
+DATA,258.9,24.37,25.0,0.62,0.537,443,0,5.8
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 5.8s
+🔧 Control - Error: 0.62 | Control Signal: 0.537 | OnTime: 5.4s
+CLASICO,260.9,24.37,25.0,0.62,0.537,444,0,5.4
+DATA,260.9,24.37,25.0,0.62,0.537,444,0,5.4
+🔥 Relay ACTIVADO
+DATA,262.9,24.37,25.0,0.62,0.538,445,1,5.4
+🌡️ Temp: 24.44°C | Setpoint: 25.0°C | Error: 0.56
+DATA,264.9,24.44,25.0,0.56,0.497,446,1,5.4
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 5.4s
+❄️ Relay DESACTIVADO
+DATA,266.9,24.44,25.0,0.56,0.498,447,0,5.4
+DATA,268.9,24.44,25.0,0.56,0.498,449,0,5.4
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 5.4s
+🔧 Control - Error: 0.56 | Control Signal: 0.498 | OnTime: 5.0s
+CLASICO,270.9,24.44,25.0,0.56,0.498,450,0,5.0
+DATA,270.9,24.44,25.0,0.56,0.498,450,0,5.0
+🔥 Relay ACTIVADO
+DATA,272.9,24.44,25.0,0.56,0.499,451,1,5.0
+🌡️ Temp: 24.50°C | Setpoint: 25.0°C | Error: 0.50
+DATA,274.9,24.50,25.0,0.50,0.458,452,1,5.0
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 5.0s
+❄️ Relay DESACTIVADO
+DATA,276.9,24.50,25.0,0.50,0.459,453,0,5.0
+DATA,278.9,24.50,25.0,0.50,0.459,454,0,5.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 5.0s
+🔧 Control - Error: 0.50 | Control Signal: 0.459 | OnTime: 4.6s
+CLASICO,280.9,24.50,25.0,0.50,0.459,455,0,4.6
+DATA,280.9,24.50,25.0,0.50,0.459,455,0,4.6
+🔥 Relay ACTIVADO
+DATA,282.9,24.56,25.0,0.44,0.419,456,1,4.6
+🌡️ Temp: 24.56°C | Setpoint: 25.0°C | Error: 0.44
+DATA,284.9,24.56,25.0,0.44,0.419,457,1,4.6
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 4.6s
+❄️ Relay DESACTIVADO
+DATA,286.9,24.56,25.0,0.44,0.420,457,0,4.6
+DATA,288.9,24.56,25.0,0.44,0.420,458,0,4.6
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 4.6s
+🔧 Control - Error: 0.44 | Control Signal: 0.420 | OnTime: 4.2s
+CLASICO,290.9,24.56,25.0,0.44,0.420,459,0,4.2
+DATA,290.9,24.56,25.0,0.44,0.420,459,0,4.2
+🔥 Relay ACTIVADO
+DATA,292.9,24.62,25.0,0.37,0.380,460,1,4.2
+🌡️ Temp: 24.62°C | Setpoint: 25.0°C | Error: 0.37
+DATA,295.0,24.62,25.0,0.37,0.380,461,1,4.2
+🔄 Relay State: ON | Tiempo en periodo: 4.9s | OnTime: 4.2s
+❄️ Relay DESACTIVADO
+DATA,297.0,24.62,25.0,0.37,0.380,461,0,4.2
+DATA,299.0,24.62,25.0,0.37,0.380,462,0,4.2
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 4.2s
+🔧 Control - Error: 0.37 | Control Signal: 0.381 | OnTime: 3.8s
+CLASICO,301.0,24.62,25.0,0.37,0.381,463,0,3.8
+DATA,301.0,24.62,25.0,0.37,0.381,463,0,3.8
+🔥 Relay ACTIVADO
+DATA,303.0,24.69,25.0,0.31,0.340,464,1,3.8
+🌡️ Temp: 24.69°C | Setpoint: 25.0°C | Error: 0.31
+❄️ Relay DESACTIVADO
+DATA,305.0,24.69,25.0,0.31,0.340,464,0,3.8
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 3.8s
+DATA,307.0,24.69,25.0,0.31,0.340,465,0,3.8
+DATA,309.0,24.69,25.0,0.31,0.341,465,0,3.8
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 3.8s
+🔧 Control - Error: 0.31 | Control Signal: 0.341 | OnTime: 3.4s
+CLASICO,311.0,24.69,25.0,0.31,0.341,466,0,3.4
+DATA,311.0,24.69,25.0,0.31,0.341,466,0,3.4
+🔥 Relay ACTIVADO
+DATA,313.0,24.69,25.0,0.31,0.341,467,1,3.4
+🌡️ Temp: 24.75°C | Setpoint: 25.0°C | Error: 0.25
+❄️ Relay DESACTIVADO
+DATA,315.0,24.75,25.0,0.25,0.301,467,0,3.4
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 3.4s
+DATA,317.0,24.75,25.0,0.25,0.301,468,0,3.4
+                                                                ,319.0,24.75,25.0,0.25,0.301,468,0,3.4
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 3.4s
+🔧 Control - Error: 0.25 | Control Signal: 0.301 | OnTime: 3.0s
+CLASICO,321.0,24.75,25.0,0.25,0.301,469,0,3.0
+DATA,321.0,24.75,25.0,0.25,0.301,469,0,3.0
+🔥 Relay ACTIVADO
+DATA,323.0,24.75,25.0,0.25,0.301,469,1,3.0
+🌡️ Temp: 24.75°C | Setpoint: 25.0°C | Error: 0.25
+❄️ Relay DESACTIVADO
+DATA,325.0,24.75,25.0,0.25,0.301,470,0,3.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 3.0s
+DATA,327.0,24.81,25.0,0.19,0.261,470,0,3.0
+DATA,329.0,24.81,25.0,0.19,0.261,470,0,3.0
+🔄 Relay State: OFF | Tiempo en periodo: 10.0s | OnTime: 3.0s
+🔧 Control - Error: 0.19 | Control Signal: 0.261 | OnTime: 2.6s
+CLASICO,331.0,24.81,25.0,0.19,0.261,471,0,2.6
+DATA,331.0,24.81,25.0,0.19,0.261,471,0,2.6
+🔥 Relay ACTIVADO
+DATA,333.0,24.81,25.0,0.19,0.261,471,1,2.6
+🌡️ Temp: 24.87°C | Setpoint: 25.0°C | Error: 0.13
+❄️ Relay DESACTIVADO
+DATA,335.1,24.87,25.0,0.13,0.221,471,0,2.6
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 2.6s
+DATA,337.1,24.87,25.0,0.13,0.221,472,0,2.6
+DATA,339.1,24.87,25.0,0.13,0.221,472,0,2.6
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 2.6s
+🔧 Control - Error: 0.13 | Control Signal: 0.221 | OnTime: 2.2s
+CLASICO,341.1,24.87,25.0,0.13,0.221,472,0,2.2
+DATA,341.1,24.87,25.0,0.13,0.221,472,0,2.2
+🔥 Relay ACTIVADO
+DATA,343.1,24.87,25.0,0.13,0.221,472,1,2.2
+🌡️ Temp: 24.87°C | Setpoint: 25.0°C | Error: 0.13
+❄️ Relay DESACTIVADO
+DATA,345.1,24.87,25.0,0.13,0.221,473,0,2.2
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 2.2s
+DATA,347.1,24.87,25.0,0.13,0.221,473,0,2.2
+DATA,349.1,24.87,25.0,0.13,0.221,473,0,2.2
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 2.2s
+🔧 Control - Error: 0.13 | Control Signal: 0.221 | OnTime: 2.2s
+CLASICO,351.1,24.87,25.0,0.13,0.221,473,0,2.2
+DATA,351.1,24.87,25.0,0.13,0.221,473,0,2.2
+🔥 Relay ACTIVADO
+DATA,353.1,24.87,25.0,0.13,0.221,474,1,2.2
+🌡️ Temp: 24.94°C | Setpoint: 25.0°C | Error: 0.06
+❄️ Relay DESACTIVADO
+DATA,355.1,24.94,25.0,0.06,0.181,474,0,2.2
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 2.2s
+DATA,357.1,24.94,25.0,0.06,0.181,474,0,2.2
+DATA,359.1,24.94,25.0,0.06,0.181,474,0,2.2
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 2.2s
+🔧 Control - Error: 0.06 | Control Signal: 0.181 | OnTime: 1.8s
+CLASICO,361.1,24.94,25.0,0.06,0.181,474,0,1.8
+DATA,361.1,24.94,25.0,0.06,0.181,474,0,1.8
+🔥 Relay ACTIVADO
+❄️ Relay DESACTIVADO
+DATA,363.1,24.94,25.0,0.06,0.181,474,0,1.8
+🌡️ Temp: 24.94°C | Setpoint: 25.0°C | Error: 0.06
+DATA,365.1,24.94,25.0,0.06,0.181,474,0,1.8
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 1.8s
+DATA,367.1,24.94,25.0,0.06,0.181,475,0,1.8
+DATA,369.1,24.94,25.0,0.06,0.181,475,0,1.8
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 1.8s
+🔧 Control - Error: 0.06 | Control Signal: 0.181 | OnTime: 1.8s
+CLASICO,371.1,24.94,25.0,0.06,0.181,475,0,1.8
+DATA,371.1,24.94,25.0,0.06,0.181,475,0,1.8
+🔥 Relay ACTIVADO
+❄️ Relay DESACTIVADO
+DATA,373.1,25.00,25.0,0.00,0.140,475,0,1.8
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,375.1,25.00,25.0,0.00,0.140,475,0,1.8
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 1.8s
+DATA,377.1,25.00,25.0,0.00,0.140,475,0,1.8
+DATA,379.1,25.00,25.0,0.00,0.140,475,0,1.8
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 1.8s
+🔧 Control - Error: 0.00 | Control Signal: 0.140 | OnTime: 1.4s
+CLASICO,381.1,25.00,25.0,0.00,0.140,475,0,1.4
+DATA,381.1,25.00,25.0,0.00,0.140,475,0,1.4
+🔥 Relay ACTIVADO
+❄️ Relay DESACTIVADO
+DATA,383.1,25.00,25.0,0.00,0.140,475,0,1.4
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,385.1,25.00,25.0,0.00,0.140,475,0,1.4
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 1.4s
+DATA,387.1,25.00,25.0,0.00,0.140,475,0,1.4
+DATA,389.1,25.00,25.0,0.00,0.140,475,0,1.4
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 1.4s
+🔧 Control - Error: -0.06 | Control Signal: 0.100 | OnTime: 0.0s
+CLASICO,391.1,25.06,25.0,-0.06,0.100,475,0,0.0
+DATA,391.1,25.06,25.0,-0.06,0.100,475,0,0.0
+DATA,393.1,25.00,25.0,0.00,0.140,475,0,0.0
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,395.1,25.00,25.0,0.00,0.140,475,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,397.1,25.00,25.0,0.00,0.140,475,0,0.0
+DATA,399.1,25.06,25.0,-0.06,0.100,475,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.100 | OnTime: 0.0s
+CLASICO,401.1,25.06,25.0,-0.06,0.100,474,0,0.0
+DATA,401.1,25.06,25.0,-0.06,0.100,474,0,0.0
+DATA,403.1,25.06,25.0,-0.06,0.099,474,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,405.1,25.06,25.0,-0.06,0.099,474,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,407.1,25.06,25.0,-0.06,0.099,474,0,0.0
+DATA,409.1,25.06,25.0,-0.06,0.099,474,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.099 | OnTime: 0.0s
+CLASICO,411.1,25.06,25.0,-0.06,0.099,474,0,0.0
+DATA,411.1,25.06,25.0,-0.06,0.099,474,0,0.0
+DATA,413.1,25.06,25.0,-0.06,0.099,474,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,415.1,25.06,25.0,-0.06,0.099,474,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,417.1,25.06,25.0,-0.06,0.099,473,0,0.0
+DATA,419.1,25.12,25.0,-0.13,0.059,473,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.099 | OnTime: 0.0s
+CLASICO,421.1,25.06,25.0,-0.06,0.099,473,0,0.0
+DATA,421.1,25.06,25.0,-0.06,0.099,473,0,0.0
+DATA,423.1,25.06,25.0,-0.06,0.099,473,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,425.1,25.12,25.0,-0.13,0.058,473,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,427.1,25.12,25.0,-0.13,0.058,472,0,0.0
+DATA,429.1,25.06,25.0,-0.06,0.099,472,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.099 | OnTime: 0.0s
+CLASICO,431.1,25.06,25.0,-0.06,0.099,472,0,0.0
+DATA,431.1,25.06,25.0,-0.06,0.099,472,0,0.0
+DATA,433.1,25.12,25.0,-0.13,0.058,472,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,435.1,25.12,25.0,-0.13,0.058,472,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,437.2,25.12,25.0,-0.13,0.058,471,0,0.0
+DATA,439.2,25.12,25.0,-0.13,0.058,471,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.058 | OnTime: 0.0s
+CLASICO,441.2,25.12,25.0,-0.13,0.058,471,0,0.0
+DATA,441.2,25.12,25.0,-0.13,0.058,471,0,0.0
+DATA,443.2,25.12,25.0,-0.13,0.058,471,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,445.2,25.12,25.0,-0.13,0.058,470,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,447.2,25.12,25.0,-0.13,0.058,470,0,0.0
+DATA,449.2,25.12,25.0,-0.13,0.058,470,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.058 | OnTime: 0.0s
+CLASICO,451.2,25.12,25.0,-0.13,0.058,470,0,0.0
+DATA,451.2,25.12,25.0,-0.13,0.058,470,0,0.0
+DATA,453.2,25.12,25.0,-0.13,0.057,469,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,455.2,25.12,25.0,-0.13,0.057,469,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 5.0s | OnTime: 0.0s
+DATA,457.2,25.12,25.0,-0.13,0.057,469,0,0.0
+DATA,459.2,25.12,25.0,-0.13,0.057,469,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 10.0s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.057 | OnTime: 0.0s
+CLASICO,461.2,25.12,25.0,-0.13,0.057,468,0,0.0
+DATA,461.2,25.12,25.0,-0.13,0.057,468,0,0.0
+DATA,463.2,25.12,25.0,-0.13,0.057,468,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,465.2,25.12,25.0,-0.13,0.057,468,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,467.2,25.12,25.0,-0.13,0.057,468,0,0.0
+DATA,469.2,25.12,25.0,-0.13,0.057,467,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.057 | OnTime: 0.0s
+CLASICO,471.2,25.12,25.0,-0.13,0.057,467,0,0.0
+DATA,471.2,25.12,25.0,-0.13,0.057,467,0,0.0
+DATA,473.3,25.12,25.0,-0.13,0.057,467,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,475.3,25.12,25.0,-0.13,0.057,467,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,477.3,25.12,25.0,-0.13,0.057,466,0,0.0
+DATA,479.3,25.12,25.0,-0.13,0.056,466,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.056 | OnTime: 0.0s
+CLASICO,481.3,25.12,25.0,-0.13,0.056,466,0,0.0
+DATA,481.3,25.12,25.0,-0.13,0.056,466,0,0.0
+DATA,483.3,25.12,25.0,-0.13,0.056,466,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+                                                                ATA,485.3,25.12,25.0,-0.13,0.056,465,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,487.3,25.12,25.0,-0.13,0.056,465,0,0.0
+DATA,489.3,25.12,25.0,-0.13,0.056,465,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.056 | OnTime: 0.0s
+CLASICO,491.3,25.12,25.0,-0.13,0.056,465,0,0.0
+DATA,491.3,25.12,25.0,-0.13,0.056,465,0,0.0
+DATA,493.3,25.12,25.0,-0.13,0.056,464,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,495.3,25.12,25.0,-0.13,0.056,464,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,497.3,25.12,25.0,-0.13,0.056,464,0,0.0
+DATA,499.4,25.12,25.0,-0.13,0.056,464,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.056 | OnTime: 0.0s
+CLASICO,501.4,25.12,25.0,-0.13,0.056,463,0,0.0
+DATA,501.4,25.12,25.0,-0.13,0.056,463,0,0.0
+DATA,503.4,25.12,25.0,-0.13,0.056,463,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,505.4,25.12,25.0,-0.13,0.056,463,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,507.4,25.12,25.0,-0.13,0.055,463,0,0.0
+DATA,509.4,25.12,25.0,-0.13,0.055,462,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.055 | OnTime: 0.0s
+CLASICO,511.4,25.12,25.0,-0.13,0.055,462,0,0.0
+DATA,511.4,25.12,25.0,-0.13,0.055,462,0,0.0
+DATA,513.4,25.12,25.0,-0.13,0.055,462,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,515.4,25.12,25.0,-0.13,0.055,462,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,517.4,25.12,25.0,-0.13,0.055,461,0,0.0
+DATA,519.4,25.12,25.0,-0.13,0.055,461,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.055 | OnTime: 0.0s
+CLASICO,521.5,25.12,25.0,-0.13,0.055,461,0,0.0
+DATA,521.4,25.12,25.0,-0.13,0.055,461,0,0.0
+                                                                A,523.5,25.12,25.0,-0.13,0.055,461,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,525.5,25.12,25.0,-0.13,0.055,460,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,527.5,25.12,25.0,-0.13,0.055,460,0,0.0
+DATA,529.5,25.12,25.0,-0.13,0.055,460,0,0.0
+                                                                    Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.055 | OnTime: 0.0s
+CLASICO,531.5,25.12,25.0,-0.13,0.055,460,0,0.0
+DATA,531.5,25.12,25.0,-0.13,0.055,460,0,0.0
+DATA,533.5,25.12,25.0,-0.13,0.054,459,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,535.5,25.12,25.0,-0.13,0.054,459,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,537.5,25.12,25.0,-0.13,0.054,459,0,0.0
+DATA,539.5,25.06,25.0,-0.06,0.095,459,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.054 | OnTime: 0.0s
+CLASICO,541.5,25.12,25.0,-0.13,0.054,459,0,0.0
+DATA,541.5,25.12,25.0,-0.13,0.054,459,0,0.0
+DATA,543.5,25.12,25.0,-0.13,0.054,458,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,545.5,25.06,25.0,-0.06,0.095,458,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,547.5,25.12,25.0,-0.13,0.054,458,0,0.0
+DATA,549.5,25.12,25.0,-0.13,0.054,458,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.054 | OnTime: 0.0s
+CLASICO,551.5,25.12,25.0,-0.13,0.054,457,0,0.0
+DATA,551.5,25.12,25.0,-0.13,0.054,457,0,0.0
+DATA,553.6,25.12,25.0,-0.13,0.054,457,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,555.6,25.06,25.0,-0.06,0.094,457,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,557.6,25.12,25.0,-0.13,0.054,457,0,0.0
+DATA,559.6,25.06,25.0,-0.06,0.094,457,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.094 | OnTime: 0.0s
+CLASICO,561.6,25.06,25.0,-0.06,0.094,457,0,0.0
+DATA,561.6,25.06,25.0,-0.06,0.094,457,0,0.0
+DATA,563.6,25.06,25.0,-0.06,0.094,456,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,565.6,25.12,25.0,-0.13,0.054,456,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,567.6,25.12,25.0,-0.13,0.053,456,0,0.0
+DATA,569.6,25.12,25.0,-0.13,0.053,456,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.053 | OnTime: 0.0s
+CLASICO,571.6,25.12,25.0,-0.13,0.053,455,0,0.0
+DATA,571.6,25.12,25.0,-0.13,0.053,455,0,0.0
+DATA,573.6,25.12,25.0,-0.13,0.053,455,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,575.6,25.06,25.0,-0.06,0.094,455,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,577.6,25.06,25.0,-0.06,0.094,455,0,0.0
+DATA,579.6,25.06,25.0,-0.06,0.094,455,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.13 | Control Signal: 0.053 | OnTime: 0.0s
+CLASICO,581.6,25.12,25.0,-0.13,0.053,455,0,0.0
+DATA,581.6,25.12,25.0,-0.13,0.053,455,0,0.0
+DATA,583.7,25.06,25.0,-0.06,0.094,454,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,585.7,25.12,25.0,-0.13,0.053,454,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,587.7,25.06,25.0,-0.06,0.094,454,0,0.0
+DATA,589.7,25.12,25.0,-0.13,0.053,454,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.093 | OnTime: 0.0s
+CLASICO,591.7,25.06,25.0,-0.06,0.093,454,0,0.0
+DATA,591.7,25.06,25.0,-0.06,0.093,454,0,0.0
+DATA,593.7,25.12,25.0,-0.13,0.053,453,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,595.7,25.12,25.0,-0.13,0.053,453,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,597.7,25.06,25.0,-0.06,0.093,453,0,0.0
+DATA,599.7,25.06,25.0,-0.06,0.093,453,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.093 | OnTime: 0.0s
+CLASICO,601.7,25.06,25.0,-0.06,0.093,453,0,0.0
+DATA,601.7,25.06,25.0,-0.06,0.093,453,0,0.0
+DATA,603.7,25.06,25.0,-0.06,0.093,453,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,605.7,25.06,25.0,-0.06,0.093,453,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+                                                                ,607.7,25.06,25.0,-0.06,0.093,452,0,0.0
+DATA,609.8,25.06,25.0,-0.06,0.093,452,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.093 | OnTime: 0.0s
+CLASICO,611.8,25.06,25.0,-0.06,0.093,452,0,0.0
+DATA,611.8,25.06,25.0,-0.06,0.093,452,0,0.0
+DATA,613.8,25.06,25.0,-0.06,0.093,452,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,615.8,25.06,25.0,-0.06,0.093,452,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,617.8,25.06,25.0,-0.06,0.093,452,0,0.0
+DATA,619.8,25.06,25.0,-0.06,0.093,452,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 10.0s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.093 | OnTime: 0.0s
+CLASICO,621.8,25.06,25.0,-0.06,0.093,452,0,0.0
+DATA,621.8,25.06,25.0,-0.06,0.093,452,0,0.0
+DATA,623.8,25.06,25.0,-0.06,0.093,451,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,625.8,25.06,25.0,-0.06,0.093,451,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,627.8,25.06,25.0,-0.06,0.093,451,0,0.0
+DATA,629.8,25.06,25.0,-0.06,0.093,451,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.093 | OnTime: 0.0s
+CLASICO,631.8,25.06,25.0,-0.06,0.093,451,0,0.0
+DATA,631.8,25.06,25.0,-0.06,0.093,451,0,0.0
+DATA,633.8,25.06,25.0,-0.06,0.093,451,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,635.9,25.06,25.0,-0.06,0.093,451,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 5.0s | OnTime: 0.0s
+DATA,637.9,25.06,25.0,-0.06,0.092,451,0,0.0
+DATA,639.9,25.06,25.0,-0.06,0.092,450,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 10.0s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.092 | OnTime: 0.0s
+CLASICO,641.9,25.06,25.0,-0.06,0.092,450,0,0.0
+DATA,641.9,25.06,25.0,-0.06,0.092,450,0,0.0
+DATA,643.9,25.06,25.0,-0.06,0.092,450,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,645.9,25.06,25.0,-0.06,0.092,450,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 5.0s | OnTime: 0.0s
+DATA,647.9,25.06,25.0,-0.06,0.092,450,0,0.0
+DATA,649.9,25.06,25.0,-0.06,0.092,450,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 10.0s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.092 | OnTime: 0.0s
+CLASICO,651.9,25.06,25.0,-0.06,0.092,450,0,0.0
+DATA,651.9,25.06,25.0,-0.06,0.092,450,0,0.0
+DATA,653.9,25.06,25.0,-0.06,0.092,450,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,655.9,25.06,25.0,-0.06,0.092,449,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,657.9,25.06,25.0,-0.06,0.092,449,0,0.0
+DATA,659.9,25.06,25.0,-0.06,0.092,449,0,0.0
+                                                                  Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.092 | OnTime: 0.0s
+CLASICO,661.9,25.06,25.0,-0.06,0.092,449,0,0.0
+DATA,661.9,25.06,25.0,-0.06,0.092,449,0,0.0
+DATA,663.9,25.06,25.0,-0.06,0.092,449,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,665.9,25.06,25.0,-0.06,0.092,449,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 4.9s | OnTime: 0.0s
+DATA,667.9,25.06,25.0,-0.06,0.092,449,0,0.0
+DATA,669.9,25.06,25.0,-0.06,0.092,449,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 9.9s | OnTime: 0.0s
+🔧 Control - Error: -0.06 | Control Signal: 0.092 | OnTime: 0.0s
+CLASICO,672.0,25.06,25.0,-0.06,0.092,448,0,0.0
+DATA,672.0,25.06,25.0,-0.06,0.092,448,0,0.0
+DATA,674.0,25.06,25.0,-0.06,0.092,448,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,676.0,25.06,25.0,-0.06,0.092,448,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 5.6s | OnTime: 0.0s
+DATA,678.0,25.06,25.0,-0.06,0.092,448,0,0.0
+DATA,680.0,25.06,25.0,-0.06,0.092,448,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.092 | OnTime: 0.0s
+CLASICO,682.0,25.06,25.0,-0.06,0.092,448,0,0.0
+DATA,682.0,25.06,25.0,-0.06,0.092,448,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.9s | OnTime: 0.0s
+DATA,684.0,25.06,25.0,-0.06,0.092,448,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,686.0,25.06,25.0,-0.06,0.092,448,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 0.0s
+DATA,688.0,25.06,25.0,-0.06,0.092,447,0,0.0
+DATA,690.0,25.06,25.0,-0.06,0.092,447,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.091 | OnTime: 0.0s
+CLASICO,692.0,25.06,25.0,-0.06,0.091,447,0,0.0
+DATA,692.0,25.06,25.0,-0.06,0.091,447,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.9s | OnTime: 0.0s
+DATA,694.0,25.06,25.0,-0.06,0.091,447,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,696.0,25.06,25.0,-0.06,0.091,447,0,0.0
+                                                                    Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 0.0s
+DATA,698.0,25.06,25.0,-0.06,0.091,447,0,0.0
+DATA,700.0,25.06,25.0,-0.06,0.091,447,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.091 | OnTime: 0.0s
+CLASICO,702.0,25.06,25.0,-0.06,0.091,447,0,0.0
+DATA,702.0,25.06,25.0,-0.06,0.091,447,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.9s | OnTime: 0.0s
+DATA,704.0,25.06,25.0,-0.06,0.091,446,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,706.0,25.06,25.0,-0.06,0.091,446,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,708.1,25.06,25.0,-0.06,0.091,446,0,0.0
+DATA,710.1,25.06,25.0,-0.06,0.091,446,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.091 | OnTime: 0.0s
+CLASICO,712.1,25.06,25.0,-0.06,0.091,446,0,0.0
+DATA,712.1,25.06,25.0,-0.06,0.091,446,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.9s | OnTime: 0.0s
+DATA,714.1,25.06,25.0,-0.06,0.091,446,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,716.1,25.06,25.0,-0.06,0.091,446,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,718.1,25.06,25.0,-0.06,0.091,446,0,0.0
+DATA,720.1,25.06,25.0,-0.06,0.091,445,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.091 | OnTime: 0.0s
+CLASICO,722.1,25.06,25.0,-0.06,0.091,445,0,0.0
+DATA,722.1,25.06,25.0,-0.06,0.091,445,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.9s | OnTime: 0.0s
+DATA,724.1,25.06,25.0,-0.06,0.091,445,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,726.1,25.06,25.0,-0.06,0.091,445,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 0.0s
+DATA,728.1,25.00,25.0,0.00,0.131,445,0,0.0
+DATA,730.1,25.06,25.0,-0.06,0.091,445,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.091 | OnTime: 0.0s
+CLASICO,732.1,25.06,25.0,-0.06,0.091,445,0,0.0
+DATA,732.1,25.06,25.0,-0.06,0.091,445,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.9s | OnTime: 0.0s
+DATA,734.1,25.06,25.0,-0.06,0.091,445,0,0.0
+                                                                  ️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,736.1,25.06,25.0,-0.06,0.091,445,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,738.2,25.06,25.0,-0.06,0.091,444,0,0.0
+DATA,740.2,25.06,25.0,-0.06,0.091,444,0,0.0
+                                                                   Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,742.2,25.00,25.0,0.00,0.131,444,0,1.3
+DATA,742.2,25.00,25.0,0.00,0.131,444,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,744.2,25.00,25.0,0.00,0.131,444,0,1.3
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,746.2,25.06,25.0,-0.06,0.091,444,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 1.3s
+DATA,748.2,25.00,25.0,0.00,0.131,444,0,1.3
+DATA,750.2,25.00,25.0,0.00,0.131,444,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,752.2,25.00,25.0,0.00,0.131,444,0,1.3
+DATA,752.2,25.00,25.0,0.00,0.131,444,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,754.2,25.06,25.0,-0.06,0.091,444,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,756.2,25.00,25.0,0.00,0.131,444,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 1.3s
+DATA,758.2,25.06,25.0,-0.06,0.091,444,0,1.3
+DATA,760.2,25.06,25.0,-0.06,0.090,444,0,1.3
+🔧 Control - Error: -0.06 | Control Signal: 0.090 | OnTime: 0.0s
+CLASICO,762.2,25.06,25.0,-0.06,0.090,444,0,0.0
+DATA,762.2,25.06,25.0,-0.06,0.090,444,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 0.9s | OnTime: 0.0s
+DATA,764.2,25.00,25.0,0.00,0.131,444,0,0.0
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,766.2,25.00,25.0,0.00,0.131,444,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 0.0s
+DATA,768.2,25.00,25.0,0.00,0.131,444,0,0.0
+DATA,770.3,25.00,25.0,0.00,0.131,444,0,0.0
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,772.3,25.00,25.0,0.00,0.131,444,0,1.3
+DATA,772.3,25.00,25.0,0.00,0.131,444,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,774.3,25.00,25.0,0.00,0.131,444,0,1.3
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,776.3,25.06,25.0,-0.06,0.090,444,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 1.3s
+DATA,778.3,25.00,25.0,0.00,0.131,444,0,1.3
+DATA,780.3,25.00,25.0,0.00,0.131,444,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,782.3,25.00,25.0,0.00,0.131,444,0,1.3
+DATA,782.3,25.00,25.0,0.00,0.131,444,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,784.3,25.00,25.0,0.00,0.131,444,0,1.3
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,786.3,25.06,25.0,-0.06,0.090,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 1.3s
+DATA,788.3,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,790.3,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,792.3,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,792.3,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,794.3,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,796.3,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,798.3,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,800.3,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,802.4,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,802.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,804.4,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,806.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,808.4,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,810.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,812.4,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,812.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,814.4,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,816.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,818.4,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,820.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,822.4,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,822.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,824.4,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,826.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 1.3s
+DATA,828.4,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,830.4,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,832.5,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,832.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,834.5,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,836.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 5.9s | OnTime: 1.3s
+DATA,838.5,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,840.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,842.5,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,842.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+                                                                    Relay State: ON | Tiempo en periodo: 0.9s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,844.5,25.06,25.0,-0.06,0.090,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,846.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,848.5,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,850.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,852.5,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,852.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,854.5,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,856.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,858.5,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,860.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,862.5,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,862.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,864.5,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,866.5,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,868.6,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,870.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,872.6,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,872.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,874.6,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,876.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,878.6,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,880.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,882.6,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,882.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,884.6,25.06,25.0,-0.06,0.090,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,886.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,888.6,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,890.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,892.6,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,892.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,894.6,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,896.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,898.6,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,900.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,902.6,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,902.6,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,904.7,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,906.7,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,908.7,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,910.7,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,912.7,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,912.7,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,914.7,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,916.7,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,918.7,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,920.7,25.06,25.0,-0.06,0.090,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,922.7,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,922.7,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,924.7,25.06,25.0,-0.06,0.090,443,0,1.3
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,926.7,25.00,25.0,0.00,0.131,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,928.7,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,930.7,25.00,25.0,0.00,0.131,443,0,1.3
+🔧 Control - Error: 0.00 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,932.7,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,932.7,25.00,25.0,0.00,0.131,443,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,934.7,25.00,25.0,0.00,0.131,443,0,1.3
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,936.7,25.06,25.0,-0.06,0.090,443,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,938.7,25.00,25.0,0.00,0.131,443,0,1.3
+DATA,940.8,25.06,25.0,-0.06,0.090,443,0,1.3
+🔧 Control - Error: -0.06 | Control Signal: 0.090 | OnTime: 0.0s
+CLASICO,942.8,25.06,25.0,-0.06,0.090,443,0,0.0
+DATA,942.8,25.06,25.0,-0.06,0.090,443,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,944.8,25.00,25.0,0.00,0.131,443,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,946.8,25.06,25.0,-0.06,0.090,442,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,948.8,25.06,25.0,-0.06,0.090,442,0,0.0
+DATA,950.8,25.06,25.0,-0.06,0.090,442,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.090 | OnTime: 0.0s
+CLASICO,952.8,25.06,25.0,-0.06,0.090,442,0,0.0
+DATA,952.8,25.06,25.0,-0.06,0.090,442,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,954.8,25.06,25.0,-0.06,0.090,442,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,956.8,25.06,25.0,-0.06,0.090,442,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,958.8,25.06,25.0,-0.06,0.090,442,0,0.0
+DATA,960.8,25.06,25.0,-0.06,0.090,442,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.090 | OnTime: 0.0s
+CLASICO,962.8,25.06,25.0,-0.06,0.090,441,0,0.0
+DATA,962.8,25.06,25.0,-0.06,0.090,441,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,964.8,25.06,25.0,-0.06,0.090,441,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,966.8,25.06,25.0,-0.06,0.090,441,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,968.8,25.06,25.0,-0.06,0.090,441,0,0.0
+DATA,970.8,25.06,25.0,-0.06,0.090,441,0,0.0
+                                                                   Control - Error: -0.06 | Control Signal: 0.090 | OnTime: 0.0s
+CLASICO,972.8,25.06,25.0,-0.06,0.090,441,0,0.0
+DATA,972.8,25.06,25.0,-0.06,0.090,441,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,974.8,25.06,25.0,-0.06,0.090,441,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,976.9,25.06,25.0,-0.06,0.090,441,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,978.9,25.06,25.0,-0.06,0.089,440,0,0.0
+DATA,980.9,25.06,25.0,-0.06,0.089,440,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.089 | OnTime: 0.0s
+CLASICO,982.9,25.06,25.0,-0.06,0.089,440,0,0.0
+DATA,982.9,25.06,25.0,-0.06,0.089,440,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,984.9,25.06,25.0,-0.06,0.089,440,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,986.9,25.06,25.0,-0.06,0.089,440,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,988.9,25.06,25.0,-0.06,0.089,440,0,0.0
+DATA,990.9,25.06,25.0,-0.06,0.089,440,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.089 | OnTime: 0.0s
+CLASICO,992.9,25.06,25.0,-0.06,0.089,440,0,0.0
+DATA,992.9,25.06,25.0,-0.06,0.089,440,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,994.9,25.12,25.0,-0.13,0.049,439,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,996.9,25.12,25.0,-0.13,0.048,439,0,0.0
+DATA,998.9,25.06,25.0,-0.06,0.089,439,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1000.9,25.12,25.0,-0.13,0.048,439,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.089 | OnTime: 0.0s
+CLASICO,1002.9,25.06,25.0,-0.06,0.089,439,0,0.0
+DATA,1002.9,25.06,25.0,-0.06,0.089,439,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1004.9,25.06,25.0,-0.06,0.089,438,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1006.9,25.06,25.0,-0.06,0.089,438,0,0.0
+DATA,1008.9,25.12,25.0,-0.13,0.048,438,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1010.9,25.12,25.0,-0.13,0.048,438,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.048 | OnTime: 0.0s
+CLASICO,1012.9,25.12,25.0,-0.13,0.048,438,0,0.0
+DATA,1012.9,25.12,25.0,-0.13,0.048,438,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1014.9,25.06,25.0,-0.06,0.089,437,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1017.0,25.06,25.0,-0.06,0.089,437,0,0.0
+DATA,1019.0,25.06,25.0,-0.06,0.089,437,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1021.0,25.12,25.0,-0.13,0.048,437,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.048 | OnTime: 0.0s
+CLASICO,1023.0,25.12,25.0,-0.13,0.048,437,0,0.0
+DATA,1023.0,25.12,25.0,-0.13,0.048,437,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1025.0,25.06,25.0,-0.06,0.088,437,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,1027.0,25.12,25.0,-0.13,0.048,436,0,0.0
+DATA,1029.0,25.12,25.0,-0.13,0.048,436,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1031.0,25.06,25.0,-0.06,0.088,436,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.088 | OnTime: 0.0s
+CLASICO,1033.0,25.06,25.0,-0.06,0.088,436,0,0.0
+DATA,1033.0,25.06,25.0,-0.06,0.088,436,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1035.0,25.12,25.0,-0.13,0.047,436,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1037.0,25.06,25.0,-0.06,0.088,435,0,0.0
+DATA,1039.0,25.06,25.0,-0.06,0.088,435,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1041.0,25.12,25.0,-0.13,0.047,435,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.088 | OnTime: 0.0s
+CLASICO,1043.0,25.06,25.0,-0.06,0.088,435,0,0.0
+DATA,1043.0,25.06,25.0,-0.06,0.088,435,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1045.0,25.12,25.0,-0.13,0.047,435,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1047.0,25.06,25.0,-0.06,0.088,435,0,0.0
+DATA,1049.0,25.12,25.0,-0.13,0.047,434,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1051.0,25.12,25.0,-0.13,0.047,434,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.047 | OnTime: 0.0s
+CLASICO,1053.0,25.12,25.0,-0.13,0.047,434,0,0.0
+DATA,1053.0,25.12,25.0,-0.13,0.047,434,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1055.0,25.06,25.0,-0.06,0.087,434,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1057.1,25.06,25.0,-0.06,0.087,434,0,0.0
+DATA,1059.1,25.06,25.0,-0.06,0.087,433,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1061.1,25.12,25.0,-0.13,0.047,433,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.087 | OnTime: 0.0s
+CLASICO,1063.1,25.06,25.0,-0.06,0.087,433,0,0.0
+DATA,1063.1,25.06,25.0,-0.06,0.087,433,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1065.1,25.06,25.0,-0.06,0.087,433,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1067.1,25.06,25.0,-0.06,0.087,433,0,0.0
+DATA,1069.1,25.12,25.0,-0.13,0.047,433,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1071.1,25.12,25.0,-0.13,0.046,432,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.046 | OnTime: 0.0s
+CLASICO,1073.1,25.12,25.0,-0.13,0.046,432,0,0.0
+DATA,1073.1,25.12,25.0,-0.13,0.046,432,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1075.1,25.12,25.0,-0.13,0.046,432,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1077.1,25.06,25.0,-0.06,0.087,432,0,0.0
+DATA,1079.1,25.12,25.0,-0.13,0.046,431,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1081.1,25.12,25.0,-0.13,0.046,431,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.087 | OnTime: 0.0s
+CLASICO,1083.1,25.06,25.0,-0.06,0.087,431,0,0.0
+DATA,1083.1,25.06,25.0,-0.06,0.087,431,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1085.1,25.06,25.0,-0.06,0.087,431,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1087.1,25.06,25.0,-0.06,0.087,431,0,0.0
+DATA,1089.1,25.06,25.0,-0.06,0.087,431,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1091.1,25.06,25.0,-0.06,0.087,431,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.087 | OnTime: 0.0s
+CLASICO,1093.1,25.06,25.0,-0.06,0.087,430,0,0.0
+DATA,1093.1,25.06,25.0,-0.06,0.087,430,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1095.1,25.06,25.0,-0.06,0.086,430,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1097.1,25.06,25.0,-0.06,0.086,430,0,0.0
+DATA,1099.1,25.06,25.0,-0.06,0.086,430,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1101.1,25.12,25.0,-0.13,0.046,430,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.086 | OnTime: 0.0s
+CLASICO,1103.1,25.06,25.0,-0.06,0.086,430,0,0.0
+DATA,1103.1,25.06,25.0,-0.06,0.086,430,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1105.1,25.06,25.0,-0.06,0.086,430,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,1107.2,25.12,25.0,-0.13,0.046,429,0,0.0
+DATA,1109.2,25.06,25.0,-0.06,0.086,429,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1111.2,25.06,25.0,-0.06,0.086,429,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.086 | OnTime: 0.0s
+CLASICO,1113.2,25.06,25.0,-0.06,0.086,429,0,0.0
+DATA,1113.2,25.06,25.0,-0.06,0.086,429,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1115.2,25.06,25.0,-0.06,0.086,429,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1117.2,25.06,25.0,-0.06,0.086,429,0,0.0
+DATA,1119.2,25.06,25.0,-0.06,0.086,429,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+                                                                ATA,1121.2,25.06,25.0,-0.06,0.086,428,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.086 | OnTime: 0.0s
+CLASICO,1123.2,25.06,25.0,-0.06,0.086,428,0,0.0
+DATA,1123.2,25.06,25.0,-0.06,0.086,428,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1125.2,25.06,25.0,-0.06,0.086,428,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1127.2,25.06,25.0,-0.06,0.086,428,0,0.0
+DATA,1129.2,25.06,25.0,-0.06,0.086,428,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1131.2,25.06,25.0,-0.06,0.086,428,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.086 | OnTime: 0.0s
+CLASICO,1133.2,25.06,25.0,-0.06,0.086,428,0,0.0
+DATA,1133.2,25.06,25.0,-0.06,0.086,428,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1135.2,25.06,25.0,-0.06,0.086,428,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,1137.2,25.12,25.0,-0.13,0.045,427,0,0.0
+DATA,1139.2,25.06,25.0,-0.06,0.086,427,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1141.2,25.06,25.0,-0.06,0.086,427,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.085 | OnTime: 0.0s
+CLASICO,1143.2,25.06,25.0,-0.06,0.085,427,0,0.0
+DATA,1143.2,25.06,25.0,-0.06,0.085,427,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1145.2,25.06,25.0,-0.06,0.085,427,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1147.2,25.06,25.0,-0.06,0.085,427,0,0.0
+DATA,1149.2,25.06,25.0,-0.06,0.085,427,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1151.3,25.06,25.0,-0.06,0.085,426,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.085 | OnTime: 0.0s
+CLASICO,1153.3,25.06,25.0,-0.06,0.085,426,0,0.0
+DATA,1153.3,25.06,25.0,-0.06,0.085,426,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1155.3,25.06,25.0,-0.06,0.085,426,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,1157.3,25.12,25.0,-0.13,0.045,426,0,0.0
+DATA,1159.3,25.06,25.0,-0.06,0.085,426,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1161.3,25.06,25.0,-0.06,0.085,426,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.085 | OnTime: 0.0s
+CLASICO,1163.3,25.06,25.0,-0.06,0.085,426,0,0.0
+DATA,1163.3,25.06,25.0,-0.06,0.085,426,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1165.3,25.06,25.0,-0.06,0.085,425,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1167.3,25.06,25.0,-0.06,0.085,425,0,0.0
+DATA,1169.3,25.06,25.0,-0.06,0.085,425,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1171.3,25.06,25.0,-0.06,0.085,425,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.085 | OnTime: 0.0s
+CLASICO,1173.3,25.06,25.0,-0.06,0.085,425,0,0.0
+DATA,1173.3,25.06,25.0,-0.06,0.085,425,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1175.3,25.06,25.0,-0.06,0.085,425,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1177.3,25.06,25.0,-0.06,0.085,425,0,0.0
+DATA,1179.3,25.06,25.0,-0.06,0.085,425,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1181.3,25.06,25.0,-0.06,0.085,424,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.085 | OnTime: 0.0s
+CLASICO,1183.3,25.06,25.0,-0.06,0.085,424,0,0.0
+DATA,1183.3,25.06,25.0,-0.06,0.085,424,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1185.3,25.06,25.0,-0.06,0.085,424,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1187.3,25.06,25.0,-0.06,0.085,424,0,0.0
+DATA,1189.4,25.06,25.0,-0.06,0.085,424,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1191.4,25.06,25.0,-0.06,0.085,424,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.085 | OnTime: 0.0s
+CLASICO,1193.4,25.06,25.0,-0.06,0.085,424,0,0.0
+DATA,1193.4,25.06,25.0,-0.06,0.085,424,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1195.4,25.06,25.0,-0.06,0.084,424,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1197.4,25.06,25.0,-0.06,0.084,423,0,0.0
+DATA,1199.4,25.06,25.0,-0.06,0.084,423,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1201.4,25.06,25.0,-0.06,0.084,423,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.084 | OnTime: 0.0s
+CLASICO,1203.4,25.06,25.0,-0.06,0.084,423,0,0.0
+DATA,1203.4,25.06,25.0,-0.06,0.084,423,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1205.4,25.06,25.0,-0.06,0.084,423,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1207.4,25.06,25.0,-0.06,0.084,423,0,0.0
+DATA,1209.4,25.06,25.0,-0.06,0.084,423,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1211.4,25.06,25.0,-0.06,0.084,423,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.084 | OnTime: 0.0s
+CLASICO,1213.4,25.06,25.0,-0.06,0.084,422,0,0.0
+DATA,1213.4,25.06,25.0,-0.06,0.084,422,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1215.4,25.06,25.0,-0.06,0.084,422,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1217.4,25.06,25.0,-0.06,0.084,422,0,0.0
+DATA,1219.4,25.06,25.0,-0.06,0.084,422,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1221.4,25.00,25.0,0.00,0.125,422,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.084 | OnTime: 0.0s
+CLASICO,1223.4,25.06,25.0,-0.06,0.084,422,0,0.0
+DATA,1223.4,25.06,25.0,-0.06,0.084,422,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1225.4,25.06,25.0,-0.06,0.084,422,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1227.5,25.06,25.0,-0.06,0.084,422,0,0.0
+DATA,1229.5,25.06,25.0,-0.06,0.084,422,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1231.5,25.06,25.0,-0.06,0.084,421,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.084 | OnTime: 0.0s
+CLASICO,1233.5,25.06,25.0,-0.06,0.084,421,0,0.0
+DATA,1233.5,25.06,25.0,-0.06,0.084,421,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1235.5,25.06,25.0,-0.06,0.084,421,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1237.5,25.06,25.0,-0.06,0.084,421,0,0.0
+DATA,1239.5,25.06,25.0,-0.06,0.084,421,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1241.5,25.06,25.0,-0.06,0.084,421,0,0.0
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1243.5,25.00,25.0,0.00,0.124,421,0,1.2
+DATA,1243.5,25.00,25.0,0.00,0.124,421,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1245.5,25.06,25.0,-0.06,0.084,421,0,1.2
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1247.5,25.06,25.0,-0.06,0.084,421,0,1.2
+DATA,1249.5,25.06,25.0,-0.06,0.084,420,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1251.5,25.06,25.0,-0.06,0.084,420,0,1.2
+🔧 Control - Error: -0.06 | Control Signal: 0.084 | OnTime: 0.0s
+CLASICO,1253.5,25.06,25.0,-0.06,0.084,420,0,0.0
+DATA,1253.5,25.06,25.0,-0.06,0.084,420,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1255.5,25.00,25.0,0.00,0.124,420,0,0.0
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1257.6,25.00,25.0,0.00,0.124,420,0,0.0
+DATA,1259.6,25.06,25.0,-0.06,0.083,420,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1261.6,25.06,25.0,-0.06,0.083,420,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1263.6,25.06,25.0,-0.06,0.083,420,0,0.0
+DATA,1263.6,25.06,25.0,-0.06,0.083,420,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1265.6,25.06,25.0,-0.06,0.083,420,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1267.6,25.06,25.0,-0.06,0.083,420,0,0.0
+DATA,1269.6,25.06,25.0,-0.06,0.083,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.1s | OnTime: 0.0s
+DATA,1271.6,25.00,25.0,0.00,0.124,419,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1273.6,25.06,25.0,-0.06,0.083,419,0,0.0
+DATA,1273.6,25.06,25.0,-0.06,0.083,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1275.6,25.00,25.0,0.00,0.124,419,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1277.6,25.06,25.0,-0.06,0.083,419,0,0.0
+DATA,1279.6,25.00,25.0,0.00,0.124,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1281.6,25.00,25.0,0.00,0.124,419,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1283.6,25.06,25.0,-0.06,0.083,419,0,0.0
+DATA,1283.6,25.06,25.0,-0.06,0.083,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1285.6,25.06,25.0,-0.06,0.083,419,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1287.6,25.06,25.0,-0.06,0.083,419,0,0.0
+DATA,1289.6,25.00,25.0,0.00,0.124,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1291.6,25.00,25.0,0.00,0.124,419,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1293.6,25.06,25.0,-0.06,0.083,419,0,0.0
+DATA,1293.6,25.06,25.0,-0.06,0.083,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1295.7,25.00,25.0,0.00,0.124,419,0,0.0
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1297.7,25.00,25.0,0.00,0.124,419,0,0.0
+DATA,1299.7,25.00,25.0,0.00,0.124,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+                                                                ATA,1301.7,25.00,25.0,0.00,0.124,419,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1303.7,25.06,25.0,-0.06,0.083,419,0,0.0
+DATA,1303.7,25.06,25.0,-0.06,0.083,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1305.7,25.00,25.0,0.00,0.124,419,0,0.0
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1307.7,25.00,25.0,0.00,0.124,419,0,0.0
+DATA,1309.7,25.00,25.0,0.00,0.124,419,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1311.7,25.00,25.0,0.00,0.124,419,0,0.0
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1313.7,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1313.7,25.00,25.0,0.00,0.124,419,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1315.7,25.00,25.0,0.00,0.124,419,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1317.7,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1319.7,25.00,25.0,0.00,0.124,419,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+                                                                ATA,1321.7,25.00,25.0,0.00,0.124,419,0,1.2
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1323.7,25.06,25.0,-0.06,0.083,418,0,0.0
+DATA,1323.7,25.06,25.0,-0.06,0.083,418,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1325.7,25.00,25.0,0.00,0.124,418,0,0.0
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1327.7,25.00,25.0,0.00,0.124,418,0,0.0
+DATA,1329.7,25.00,25.0,0.00,0.124,418,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1331.7,25.00,25.0,0.00,0.124,418,0,0.0
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1333.7,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1333.7,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1335.7,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1337.8,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1339.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1341.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1343.8,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1343.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1345.8,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1347.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1349.8,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1351.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1353.8,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1353.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1355.8,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1357.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1359.8,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1361.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1363.8,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1363.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1365.8,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1367.8,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1369.8,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1371.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1373.9,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1373.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1375.9,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1377.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1379.9,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1381.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1383.9,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1383.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1385.9,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1387.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1389.9,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1391.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1393.9,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1393.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1395.9,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1397.9,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1399.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1401.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1403.9,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1403.9,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1406.0,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1408.0,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1410.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1412.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1414.0,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1414.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1416.0,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1418.0,25.00,25.0,0.00,0.124,418,0,1.2
+                                                                TA,1420.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1422.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1424.0,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1424.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1426.0,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1428.0,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1430.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1432.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1434.0,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1434.0,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1436.1,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1438.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1440.1,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1442.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1444.1,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1444.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1446.1,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1448.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1450.1,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1452.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1454.1,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1454.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1456.1,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1458.1,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1460.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1462.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1464.1,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1464.1,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1466.2,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1468.2,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1470.2,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1472.2,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1474.2,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1474.2,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1476.2,25.00,25.0,0.00,0.124,418,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1478.2,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1480.2,24.94,25.0,0.06,0.164,419,0,1.2
+DATA,1482.2,25.00,25.0,0.00,0.124,419,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1484.2,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1484.2,25.00,25.0,0.00,0.124,419,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1486.2,25.00,25.0,0.00,0.124,419,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1488.2,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1490.2,25.00,25.0,0.00,0.124,419,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1492.2,25.00,25.0,0.00,0.124,419,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1494.2,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1494.2,25.00,25.0,0.00,0.124,419,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1496.2,25.00,25.0,0.00,0.124,419,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1498.2,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1500.2,25.00,25.0,0.00,0.124,419,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1502.2,25.00,25.0,0.00,0.124,419,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1504.2,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1504.2,25.00,25.0,0.00,0.124,419,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1506.2,25.00,25.0,0.00,0.124,419,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1508.3,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1510.3,25.00,25.0,0.00,0.124,419,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1512.3,25.00,25.0,0.00,0.124,419,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1514.3,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1514.3,25.00,25.0,0.00,0.124,419,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1516.3,25.00,25.0,0.00,0.124,419,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1518.3,25.00,25.0,0.00,0.124,419,0,1.2
+DATA,1520.3,25.06,25.0,-0.06,0.083,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1522.3,25.00,25.0,0.00,0.124,418,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.124 | OnTime: 1.2s
+CLASICO,1524.3,25.00,25.0,0.00,0.124,418,0,1.2
+DATA,1524.3,25.00,25.0,0.00,0.124,418,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1526.3,25.06,25.0,-0.06,0.083,418,0,1.2
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1528.3,25.06,25.0,-0.06,0.083,418,0,1.2
+DATA,1530.3,25.00,25.0,0.00,0.124,418,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1532.3,25.06,25.0,-0.06,0.083,418,0,1.2
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1534.3,25.06,25.0,-0.06,0.083,418,0,0.0
+DATA,1534.3,25.06,25.0,-0.06,0.083,418,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1536.3,25.00,25.0,0.00,0.123,418,0,0.0
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1538.4,25.00,25.0,0.00,0.123,418,0,0.0
+DATA,1540.4,25.06,25.0,-0.06,0.083,418,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1542.4,25.00,25.0,0.00,0.123,418,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1544.4,25.06,25.0,-0.06,0.083,418,0,0.0
+DATA,1544.4,25.06,25.0,-0.06,0.083,418,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1546.4,25.06,25.0,-0.06,0.083,418,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1548.4,25.06,25.0,-0.06,0.083,417,0,0.0
+DATA,1550.4,25.06,25.0,-0.06,0.083,417,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1552.4,25.06,25.0,-0.06,0.083,417,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.083 | OnTime: 0.0s
+CLASICO,1554.4,25.06,25.0,-0.06,0.083,417,0,0.0
+DATA,1554.4,25.06,25.0,-0.06,0.083,417,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1556.4,25.06,25.0,-0.06,0.083,417,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1558.4,25.06,25.0,-0.06,0.083,417,0,0.0
+DATA,1560.4,25.06,25.0,-0.06,0.082,417,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1562.4,25.06,25.0,-0.06,0.082,417,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.082 | OnTime: 0.0s
+CLASICO,1564.4,25.06,25.0,-0.06,0.082,416,0,0.0
+DATA,1564.4,25.06,25.0,-0.06,0.082,416,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1566.4,25.06,25.0,-0.06,0.082,416,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1568.4,25.06,25.0,-0.06,0.082,416,0,0.0
+DATA,1570.4,25.06,25.0,-0.06,0.082,416,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1572.4,25.06,25.0,-0.06,0.082,416,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.082 | OnTime: 0.0s
+CLASICO,1574.4,25.06,25.0,-0.06,0.082,416,0,0.0
+DATA,1574.4,25.06,25.0,-0.06,0.082,416,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1576.4,25.06,25.0,-0.06,0.082,416,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1578.4,25.06,25.0,-0.06,0.082,416,0,0.0
+DATA,1580.4,25.06,25.0,-0.06,0.082,415,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1582.4,25.06,25.0,-0.06,0.082,415,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.082 | OnTime: 0.0s
+CLASICO,1584.4,25.06,25.0,-0.06,0.082,415,0,0.0
+DATA,1584.4,25.06,25.0,-0.06,0.082,415,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1586.4,25.06,25.0,-0.06,0.082,415,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,1588.4,25.12,25.0,-0.13,0.041,415,0,0.0
+DATA,1590.4,25.12,25.0,-0.13,0.041,415,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1592.4,25.06,25.0,-0.06,0.082,414,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.082 | OnTime: 0.0s
+CLASICO,1594.4,25.06,25.0,-0.06,0.082,414,0,0.0
+DATA,1594.4,25.06,25.0,-0.06,0.082,414,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1596.4,25.06,25.0,-0.06,0.082,414,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1598.4,25.06,25.0,-0.06,0.082,414,0,0.0
+DATA,1600.4,25.06,25.0,-0.06,0.082,414,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1602.4,25.12,25.0,-0.13,0.041,414,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.082 | OnTime: 0.0s
+CLASICO,1604.4,25.06,25.0,-0.06,0.082,414,0,0.0
+DATA,1604.4,25.06,25.0,-0.06,0.082,414,0,0.0
+                                                                   Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1606.4,25.06,25.0,-0.06,0.082,413,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,1608.4,25.12,25.0,-0.13,0.041,413,0,0.0
+DATA,1610.4,25.06,25.0,-0.06,0.081,413,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1612.4,25.12,25.0,-0.13,0.041,413,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.041 | OnTime: 0.0s
+CLASICO,1614.4,25.12,25.0,-0.13,0.041,413,0,0.0
+DATA,1614.4,25.12,25.0,-0.13,0.041,413,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1616.4,25.12,25.0,-0.13,0.041,412,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,1618.4,25.12,25.0,-0.13,0.040,412,0,0.0
+                                                                TA,1620.4,25.06,25.0,-0.06,0.081,412,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1622.4,25.06,25.0,-0.06,0.081,412,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.040 | OnTime: 0.0s
+CLASICO,1624.4,25.12,25.0,-0.13,0.040,412,0,0.0
+DATA,1624.4,25.12,25.0,-0.13,0.040,412,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1626.4,25.06,25.0,-0.06,0.081,411,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1628.4,25.06,25.0,-0.06,0.081,411,0,0.0
+DATA,1630.4,25.06,25.0,-0.06,0.081,411,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1632.4,25.06,25.0,-0.06,0.081,411,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.040 | OnTime: 0.0s
+CLASICO,1634.4,25.12,25.0,-0.13,0.040,411,0,0.0
+DATA,1634.4,25.12,25.0,-0.13,0.040,411,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1636.4,25.06,25.0,-0.06,0.081,411,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,1638.4,25.12,25.0,-0.13,0.040,410,0,0.0
+DATA,1640.4,25.12,25.0,-0.13,0.040,410,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1642.4,25.06,25.0,-0.06,0.081,410,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.080 | OnTime: 0.0s
+CLASICO,1644.4,25.06,25.0,-0.06,0.080,410,0,0.0
+DATA,1644.4,25.06,25.0,-0.06,0.080,410,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1646.4,25.06,25.0,-0.06,0.080,410,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1648.4,25.06,25.0,-0.06,0.080,410,0,0.0
+DATA,1650.4,25.06,25.0,-0.06,0.080,410,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1652.5,25.06,25.0,-0.06,0.080,409,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.040 | OnTime: 0.0s
+CLASICO,1654.5,25.12,25.0,-0.13,0.040,409,0,0.0
+DATA,1654.5,25.12,25.0,-0.13,0.040,409,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1656.5,25.06,25.0,-0.06,0.080,409,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1658.5,25.06,25.0,-0.06,0.080,409,0,0.0
+DATA,1660.5,25.06,25.0,-0.06,0.080,409,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1662.5,25.06,25.0,-0.06,0.080,409,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.080 | OnTime: 0.0s
+CLASICO,1664.5,25.06,25.0,-0.06,0.080,409,0,0.0
+DATA,1664.5,25.06,25.0,-0.06,0.080,409,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1666.5,25.12,25.0,-0.13,0.039,408,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1668.5,25.06,25.0,-0.06,0.080,408,0,0.0
+DATA,1670.5,25.06,25.0,-0.06,0.080,408,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1672.5,25.12,25.0,-0.13,0.039,408,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.080 | OnTime: 0.0s
+CLASICO,1674.5,25.06,25.0,-0.06,0.080,408,0,0.0
+DATA,1674.5,25.06,25.0,-0.06,0.080,408,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1676.5,25.06,25.0,-0.06,0.080,408,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1678.5,25.06,25.0,-0.06,0.080,407,0,0.0
+DATA,1680.5,25.06,25.0,-0.06,0.080,407,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1682.5,25.06,25.0,-0.06,0.080,407,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.080 | OnTime: 0.0s
+CLASICO,1684.5,25.06,25.0,-0.06,0.080,407,0,0.0
+DATA,1684.5,25.06,25.0,-0.06,0.080,407,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1686.5,25.06,25.0,-0.06,0.080,407,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1688.5,25.06,25.0,-0.06,0.080,407,0,0.0
+DATA,1690.5,25.06,25.0,-0.06,0.080,407,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1692.5,25.06,25.0,-0.06,0.079,407,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.079 | OnTime: 0.0s
+CLASICO,1694.5,25.06,25.0,-0.06,0.079,406,0,0.0
+DATA,1694.5,25.06,25.0,-0.06,0.079,406,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1696.5,25.06,25.0,-0.06,0.079,406,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1698.5,25.06,25.0,-0.06,0.079,406,0,0.0
+DATA,1700.5,25.06,25.0,-0.06,0.079,406,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1702.5,25.06,25.0,-0.06,0.079,406,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.079 | OnTime: 0.0s
+CLASICO,1704.5,25.06,25.0,-0.06,0.079,406,0,0.0
+DATA,1704.5,25.06,25.0,-0.06,0.079,406,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1706.5,25.06,25.0,-0.06,0.079,406,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1708.5,25.06,25.0,-0.06,0.079,406,0,0.0
+DATA,1710.5,25.06,25.0,-0.06,0.079,405,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1712.5,25.06,25.0,-0.06,0.079,405,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.079 | OnTime: 0.0s
+CLASICO,1714.5,25.06,25.0,-0.06,0.079,405,0,0.0
+DATA,1714.5,25.06,25.0,-0.06,0.079,405,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+                                                                ATA,1716.5,25.06,25.0,-0.06,0.079,405,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1718.5,25.06,25.0,-0.06,0.079,405,0,0.0
+DATA,1720.5,25.06,25.0,-0.06,0.079,405,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1722.5,25.06,25.0,-0.06,0.079,405,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.079 | OnTime: 0.0s
+CLASICO,1724.5,25.06,25.0,-0.06,0.079,405,0,0.0
+DATA,1724.5,25.06,25.0,-0.06,0.079,405,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1726.5,25.06,25.0,-0.06,0.079,404,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1728.5,25.06,25.0,-0.06,0.079,404,0,0.0
+DATA,1730.5,25.06,25.0,-0.06,0.079,404,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1732.5,25.06,25.0,-0.06,0.079,404,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.079 | OnTime: 0.0s
+CLASICO,1734.5,25.06,25.0,-0.06,0.079,404,0,0.0
+DATA,1734.5,25.06,25.0,-0.06,0.079,404,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1736.5,25.06,25.0,-0.06,0.079,404,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1738.5,25.06,25.0,-0.06,0.079,404,0,0.0
+DATA,1740.5,25.06,25.0,-0.06,0.079,404,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1742.5,25.06,25.0,-0.06,0.079,403,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.079 | OnTime: 0.0s
+CLASICO,1744.5,25.06,25.0,-0.06,0.079,403,0,0.0
+DATA,1744.5,25.06,25.0,-0.06,0.079,403,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1746.5,25.06,25.0,-0.06,0.078,403,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1748.5,25.06,25.0,-0.06,0.078,403,0,0.0
+DATA,1750.5,25.06,25.0,-0.06,0.078,403,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+                                                                A,1752.6,25.06,25.0,-0.06,0.078,403,0,0.0
+🔧 Control - Error: -0.06 | Control Signal: 0.078 | OnTime: 0.0s
+CLASICO,1754.6,25.06,25.0,-0.06,0.078,403,0,0.0
+DATA,1754.6,25.06,25.0,-0.06,0.078,403,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,1756.6,25.06,25.0,-0.06,0.078,403,0,0.0
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,1758.6,25.06,25.0,-0.06,0.078,402,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,1760.6,25.06,25.0,-0.06,0.078,402,0,0.0
+DATA,1762.6,25.06,25.0,-0.06,0.078,402,0,0.0
+🔧 Control - Error: 0.00 | Control Signal: 0.119 | OnTime: 1.2s
+CLASICO,1764.6,25.00,25.0,0.00,0.119,402,0,1.2
+DATA,1764.6,25.00,25.0,0.00,0.119,402,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1766.6,25.00,25.0,0.00,0.119,402,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1768.6,25.00,25.0,0.00,0.119,402,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1770.6,25.06,25.0,-0.06,0.078,402,0,1.2
+DATA,1772.6,25.00,25.0,0.00,0.119,402,0,1.2
+🔧 Control - Error: 0.00 | Control Signal: 0.119 | OnTime: 1.2s
+CLASICO,1774.6,25.00,25.0,0.00,0.119,402,0,1.2
+DATA,1774.6,25.00,25.0,0.00,0.119,402,0,1.2
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.2s
+❄️ Relay DESACTIVADO
+DATA,1776.6,25.00,25.0,0.00,0.119,402,0,1.2
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,1778.6,25.00,25.0,0.00,0.119,402,0,1.2
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.2s
+DATA,1780.6,24.94,25.0,0.06,0.159,402,0,1.2
+DATA,1782.6,24.87,25.0,0.13,0.200,402,0,1.2
+🔧 Control - Error: 0.25 | Control Signal: 0.282 | OnTime: 2.8s
+CLASICO,1784.7,24.75,25.0,0.25,0.282,403,0,2.8
+DATA,1784.6,24.75,25.0,0.25,0.282,403,0,2.8
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 2.8s
+DATA,1786.7,24.56,25.0,0.44,0.404,404,1,2.8
+🌡️ Temp: 24.44°C | Setpoint: 25.0°C | Error: 0.56
+❄️ Relay DESACTIVADO
+DATA,1788.7,24.44,25.0,0.56,0.485,405,0,2.8
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 2.8s
+DATA,1790.7,24.31,25.0,0.69,0.567,406,0,2.8
+DATA,1792.7,24.19,25.0,0.81,0.649,408,0,2.8
+🔧 Control - Error: 0.88 | Control Signal: 0.690 | OnTime: 6.9s
+CLASICO,1794.7,24.12,25.0,0.88,0.690,410,0,6.9
+DATA,1794.7,24.12,25.0,0.88,0.690,410,0,6.9
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 6.9s
+DATA,1796.7,24.06,25.0,0.94,0.731,412,1,6.9
+🌡️ Temp: 24.06°C | Setpoint: 25.0°C | Error: 0.94
+DATA,1798.7,24.06,25.0,0.94,0.732,413,1,6.9
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 6.9s
+DATA,1800.7,24.06,25.0,0.94,0.732,415,1,6.9
+❄️ Relay DESACTIVADO
+DATA,1802.7,24.00,25.0,1.00,0.773,417,0,6.9
+🔧 Control - Error: 1.00 | Control Signal: 0.774 | OnTime: 7.7s
+CLASICO,1804.7,24.00,25.0,1.00,0.774,419,0,7.7
+DATA,1804.7,24.00,25.0,1.00,0.774,419,0,7.7
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 7.7s
+DATA,1806.7,24.00,25.0,1.00,0.774,421,1,7.7
+🌡️ Temp: 23.94°C | Setpoint: 25.0°C | Error: 1.06
+DATA,1808.7,23.94,25.0,1.06,0.816,423,1,7.7
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 7.7s
+DATA,1810.7,23.94,25.0,1.06,0.816,426,1,7.7
+❄️ Relay DESACTIVADO
+DATA,1812.7,23.94,25.0,1.06,0.817,428,0,7.7
+🔧 Control - Error: 1.12 | Control Signal: 0.858 | OnTime: 8.6s
+CLASICO,1814.8,23.87,25.0,1.12,0.858,430,0,8.6
+DATA,1814.8,23.87,25.0,1.12,0.858,430,0,8.6
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 8.6s
+DATA,1816.8,23.87,25.0,1.12,0.859,432,1,8.6
+🌡️ Temp: 23.81°C | Setpoint: 25.0°C | Error: 1.19
+DATA,1818.8,23.81,25.0,1.19,0.900,435,1,8.6
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 8.6s
+DATA,1820.8,23.75,25.0,1.25,0.942,437,1,8.6
+DATA,1822.8,23.69,25.0,1.31,0.983,440,1,8.6
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.31 | Control Signal: 0.984 | OnTime: 10.0s
+CLASICO,1824.8,23.69,25.0,1.31,0.984,442,0,10.0
+DATA,1824.8,23.69,25.0,1.31,0.984,442,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1826.8,23.62,25.0,1.37,1.000,445,1,10.0
+🌡️ Temp: 23.62°C | Setpoint: 25.0°C | Error: 1.37
+DATA,1828.8,23.62,25.0,1.37,1.000,448,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1830.8,23.56,25.0,1.44,1.000,451,1,10.0
+DATA,1832.8,23.56,25.0,1.44,1.000,454,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.50 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1834.8,23.50,25.0,1.50,1.000,457,0,10.0
+DATA,1834.8,23.50,25.0,1.50,1.000,457,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1836.8,23.50,25.0,1.50,1.000,460,1,10.0
+🌡️ Temp: 23.44°C | Setpoint: 25.0°C | Error: 1.56
+DATA,1838.8,23.44,25.0,1.56,1.000,463,1,10.0
+DATA,1840.8,23.44,25.0,1.56,1.000,466,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1842.8,23.44,25.0,1.56,1.000,469,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.56 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1844.8,23.44,25.0,1.56,1.000,472,0,10.0
+DATA,1844.8,23.44,25.0,1.56,1.000,472,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1846.8,23.44,25.0,1.56,1.000,475,1,10.0
+🌡️ Temp: 23.44°C | Setpoint: 25.0°C | Error: 1.56
+DATA,1848.8,23.44,25.0,1.56,1.000,478,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1850.8,23.44,25.0,1.56,1.000,481,1,10.0
+DATA,1852.9,23.44,25.0,1.56,1.000,485,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.56 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1854.9,23.44,25.0,1.56,1.000,488,0,10.0
+DATA,1854.9,23.44,25.0,1.56,1.000,488,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1856.9,23.44,25.0,1.56,1.000,491,1,10.0
+🌡️ Temp: 23.44°C | Setpoint: 25.0°C | Error: 1.56
+DATA,1858.9,23.44,25.0,1.56,1.000,494,1,10.0
+DATA,1860.9,23.37,25.0,1.62,1.000,497,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1862.9,23.37,25.0,1.62,1.000,500,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.62 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1864.9,23.37,25.0,1.62,1.000,504,0,10.0
+DATA,1864.9,23.37,25.0,1.62,1.000,504,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1866.9,23.37,25.0,1.62,1.000,507,1,10.0
+🌡️ Temp: 23.44°C | Setpoint: 25.0°C | Error: 1.56
+DATA,1868.9,23.44,25.0,1.56,1.000,510,1,10.0
+DATA,1870.9,23.44,25.0,1.56,1.000,513,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1872.9,23.37,25.0,1.62,1.000,516,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.62 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1874.9,23.37,25.0,1.62,1.000,520,0,10.0
+DATA,1874.9,23.37,25.0,1.62,1.000,520,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1876.9,23.37,25.0,1.62,1.000,523,1,10.0
+🌡️ Temp: 23.37°C | Setpoint: 25.0°C | Error: 1.62
+DATA,1878.9,23.37,25.0,1.62,1.000,526,1,10.0
+DATA,1880.9,23.37,25.0,1.62,1.000,529,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1882.9,23.37,25.0,1.62,1.000,533,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.62 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1884.9,23.37,25.0,1.62,1.000,536,0,10.0
+DATA,1884.9,23.37,25.0,1.62,1.000,536,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1887.0,23.37,25.0,1.62,1.000,539,1,10.0
+🌡️ Temp: 23.37°C | Setpoint: 25.0°C | Error: 1.62
+DATA,1889.0,23.37,25.0,1.62,1.000,542,1,10.0
+DATA,1891.0,23.37,25.0,1.62,1.000,546,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1893.0,23.37,25.0,1.62,1.000,549,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.62 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1895.0,23.37,25.0,1.62,1.000,552,0,10.0
+DATA,1895.0,23.37,25.0,1.62,1.000,552,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1897.0,23.37,25.0,1.62,1.000,555,1,10.0
+🌡️ Temp: 23.44°C | Setpoint: 25.0°C | Error: 1.56
+DATA,1899.0,23.44,25.0,1.56,1.000,559,1,10.0
+DATA,1901.0,23.44,25.0,1.56,1.000,562,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1903.0,23.44,25.0,1.56,1.000,565,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.56 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1905.0,23.44,25.0,1.56,1.000,568,0,10.0
+DATA,1905.0,23.44,25.0,1.56,1.000,568,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1907.0,23.44,25.0,1.56,1.000,571,1,10.0
+🌡️ Temp: 23.44°C | Setpoint: 25.0°C | Error: 1.56
+DATA,1909.0,23.44,25.0,1.56,1.000,574,1,10.0
+DATA,1911.0,23.44,25.0,1.56,1.000,577,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1913.0,23.44,25.0,1.56,1.000,580,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.50 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1915.0,23.50,25.0,1.50,1.000,583,0,10.0
+DATA,1915.0,23.50,25.0,1.50,1.000,583,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1917.0,23.50,25.0,1.50,1.000,586,1,10.0
+🌡️ Temp: 23.50°C | Setpoint: 25.0°C | Error: 1.50
+DATA,1919.0,23.50,25.0,1.50,1.000,589,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1921.0,23.50,25.0,1.50,1.000,592,1,10.0
+DATA,1923.0,23.50,25.0,1.50,1.000,595,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.44 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1925.0,23.56,25.0,1.44,1.000,598,0,10.0
+DATA,1925.0,23.56,25.0,1.44,1.000,598,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1927.1,23.56,25.0,1.44,1.000,601,1,10.0
+🌡️ Temp: 23.56°C | Setpoint: 25.0°C | Error: 1.44
+DATA,1929.1,23.56,25.0,1.44,1.000,604,1,10.0
+DATA,1931.1,23.56,25.0,1.44,1.000,607,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1933.1,23.62,25.0,1.37,1.000,610,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.37 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1935.1,23.62,25.0,1.37,1.000,612,0,10.0
+DATA,1935.1,23.62,25.0,1.37,1.000,612,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1937.1,23.62,25.0,1.37,1.000,615,1,10.0
+🌡️ Temp: 23.69°C | Setpoint: 25.0°C | Error: 1.31
+DATA,1939.1,23.69,25.0,1.31,1.000,618,1,10.0
+DATA,1941.1,23.69,25.0,1.31,1.000,620,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1943.1,23.69,25.0,1.31,1.000,623,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.31 | Control Signal: 1.000 | OnTime: 10.0s
+CLASICO,1945.1,23.69,25.0,1.31,1.000,626,0,10.0
+DATA,1945.1,23.69,25.0,1.31,1.000,626,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1947.1,23.75,25.0,1.25,0.998,628,1,10.0
+🌡️ Temp: 23.75°C | Setpoint: 25.0°C | Error: 1.25
+DATA,1949.1,23.75,25.0,1.25,0.999,631,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1951.1,23.75,25.0,1.25,1.000,633,1,10.0
+DATA,1953.1,23.75,25.0,1.25,1.000,636,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.19 | Control Signal: 0.960 | OnTime: 10.0s
+CLASICO,1955.1,23.81,25.0,1.19,0.960,638,0,10.0
+DATA,1955.1,23.81,25.0,1.19,0.960,638,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1957.1,23.81,25.0,1.19,0.961,640,1,10.0
+🌡️ Temp: 23.87°C | Setpoint: 25.0°C | Error: 1.12
+DATA,1959.1,23.87,25.0,1.12,0.921,643,1,10.0
+DATA,1961.1,23.87,25.0,1.12,0.922,645,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1963.2,23.87,25.0,1.12,0.922,647,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.12 | Control Signal: 0.923 | OnTime: 10.0s
+CLASICO,1965.2,23.87,25.0,1.12,0.923,649,0,10.0
+DATA,1965.2,23.87,25.0,1.12,0.923,649,0,10.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 10.0s
+DATA,1967.2,23.94,25.0,1.06,0.883,652,1,10.0
+🌡️ Temp: 23.94°C | Setpoint: 25.0°C | Error: 1.06
+DATA,1969.2,23.94,25.0,1.06,0.884,654,1,10.0
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 10.0s
+DATA,1971.2,23.94,25.0,1.06,0.884,656,1,10.0
+DATA,1973.2,23.94,25.0,1.06,0.885,658,1,10.0
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 1.00 | Control Signal: 0.845 | OnTime: 8.4s
+CLASICO,1975.2,24.00,25.0,1.00,0.845,660,0,8.4
+DATA,1975.2,24.00,25.0,1.00,0.845,660,0,8.4
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 8.4s
+                                                                ,1977.2,24.00,25.0,1.00,0.846,662,1,8.4
+🌡️ Temp: 24.00°C | Setpoint: 25.0°C | Error: 1.00
+DATA,1979.2,24.00,25.0,1.00,0.846,664,1,8.4
+DATA,1981.2,24.06,25.0,0.94,0.806,666,1,8.4
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 8.4s
+DATA,1983.2,24.06,25.0,0.94,0.807,668,1,8.4
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 0.94 | Control Signal: 0.807 | OnTime: 8.1s
+CLASICO,1985.2,24.06,25.0,0.94,0.807,670,0,8.1
+DATA,1985.2,24.06,25.0,0.94,0.807,670,0,8.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 8.1s
+DATA,1987.2,24.06,25.0,0.94,0.808,671,1,8.1
+🌡️ Temp: 24.12°C | Setpoint: 25.0°C | Error: 0.88
+DATA,1989.2,24.12,25.0,0.88,0.768,673,1,8.1
+DATA,1991.2,24.12,25.0,0.88,0.768,675,1,8.1
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 8.1s
+DATA,1993.2,24.12,25.0,0.88,0.769,677,1,8.1
+❄️ Relay DESACTIVADO
+🔧 Control - Error: 0.88 | Control Signal: 0.769 | OnTime: 7.7s
+CLASICO,1995.2,24.12,25.0,0.88,0.769,678,0,7.7
+DATA,1995.2,24.12,25.0,0.88,0.769,678,0,7.7
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 7.7s
+DATA,1997.3,24.19,25.0,0.81,0.729,680,1,7.7
+🌡️ Temp: 24.19°C | Setpoint: 25.0°C | Error: 0.81
+DATA,1999.3,24.19,25.0,0.81,0.730,682,1,7.7
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 7.7s
+DATA,2001.3,24.19,25.0,0.81,0.730,683,1,7.7
+❄️ Relay DESACTIVADO
+DATA,2003.3,24.25,25.0,0.75,0.690,685,0,7.7
+🔧 Control - Error: 0.75 | Control Signal: 0.690 | OnTime: 6.9s
+CLASICO,2005.3,24.25,25.0,0.75,0.690,686,0,6.9
+DATA,2005.3,24.25,25.0,0.75,0.690,686,0,6.9
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 6.9s
+DATA,2007.3,24.25,25.0,0.75,0.691,688,1,6.9
+🌡️ Temp: 24.25°C | Setpoint: 25.0°C | Error: 0.75
+DATA,2009.3,24.25,25.0,0.75,0.691,689,1,6.9
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 6.9s
+DATA,2011.3,24.31,25.0,0.69,0.651,691,1,6.9
+❄️ Relay DESACTIVADO
+DATA,2013.3,24.31,25.0,0.69,0.651,692,0,6.9
+🔧 Control - Error: 0.62 | Control Signal: 0.611 | OnTime: 6.1s
+CLASICO,2015.3,24.37,25.0,0.62,0.611,693,0,6.1
+DATA,2015.3,24.37,25.0,0.62,0.611,693,0,6.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 6.1s
+DATA,2017.3,24.37,25.0,0.62,0.611,695,1,6.1
+🌡️ Temp: 24.37°C | Setpoint: 25.0°C | Error: 0.62
+DATA,2019.3,24.37,25.0,0.62,0.612,696,1,6.1
+🔄 Relay State: ON | Tiempo en periodo: 6.0s | OnTime: 6.1s
+DATA,2021.4,24.37,25.0,0.62,0.612,697,1,6.1
+❄️ Relay DESACTIVADO
+DATA,2023.4,24.37,25.0,0.62,0.613,698,0,6.1
+🔧 Control - Error: 0.56 | Control Signal: 0.572 | OnTime: 5.7s
+CLASICO,2025.4,24.44,25.0,0.56,0.572,699,0,5.7
+DATA,2025.4,24.44,25.0,0.56,0.572,699,0,5.7
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 5.7s
+DATA,2027.4,24.44,25.0,0.56,0.573,701,1,5.7
+🌡️ Temp: 24.44°C | Setpoint: 25.0°C | Error: 0.56
+DATA,2029.4,24.44,25.0,0.56,0.573,702,1,5.7
+❄️ Relay DESACTIVADO
+DATA,2031.4,24.50,25.0,0.50,0.533,703,0,5.7
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 5.7s
+DATA,2033.4,24.50,25.0,0.50,0.533,704,0,5.7
+🔧 Control - Error: 0.50 | Control Signal: 0.533 | OnTime: 5.3s
+CLASICO,2035.4,24.50,25.0,0.50,0.533,705,0,5.3
+DATA,2035.4,24.50,25.0,0.50,0.533,705,0,5.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 5.3s
+DATA,2037.4,24.50,25.0,0.50,0.533,706,1,5.3
+🌡️ Temp: 24.56°C | Setpoint: 25.0°C | Error: 0.44
+DATA,2039.4,24.56,25.0,0.44,0.493,707,1,5.3
+❄️ Relay DESACTIVADO
+DATA,2041.4,24.56,25.0,0.44,0.493,707,0,5.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 5.3s
+DATA,2043.4,24.56,25.0,0.44,0.494,708,0,5.3
+🔧 Control - Error: 0.44 | Control Signal: 0.494 | OnTime: 4.9s
+CLASICO,2045.4,24.56,25.0,0.44,0.494,709,0,4.9
+DATA,2045.4,24.56,25.0,0.44,0.494,709,0,4.9
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 4.9s
+DATA,2047.4,24.62,25.0,0.37,0.453,710,1,4.9
+🌡️ Temp: 24.62°C | Setpoint: 25.0°C | Error: 0.37
+DATA,2049.4,24.62,25.0,0.37,0.454,711,1,4.9
+❄️ Relay DESACTIVADO
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 4.9s
+DATA,2051.4,24.69,25.0,0.31,0.413,711,0,4.9
+DATA,2053.5,24.62,25.0,0.37,0.454,712,0,4.9
+🔧 Control - Error: 0.31 | Control Signal: 0.414 | OnTime: 4.1s
+CLASICO,2055.5,24.69,25.0,0.31,0.414,713,0,4.1
+DATA,2055.5,24.69,25.0,0.31,0.414,713,0,4.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 4.1s
+DATA,2057.5,24.69,25.0,0.31,0.414,713,1,4.1
+🌡️ Temp: 24.69°C | Setpoint: 25.0°C | Error: 0.31
+DATA,2059.5,24.69,25.0,0.31,0.414,714,1,4.1
+❄️ Relay DESACTIVADO
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 4.1s
+DATA,2061.5,24.69,25.0,0.31,0.414,715,0,4.1
+DATA,2063.5,24.75,25.0,0.25,0.374,715,0,4.1
+🔧 Control - Error: 0.25 | Control Signal: 0.374 | OnTime: 3.7s
+CLASICO,2065.5,24.75,25.0,0.25,0.374,716,0,3.7
+DATA,2065.5,24.75,25.0,0.25,0.374,716,0,3.7
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 3.7s
+DATA,2067.5,24.81,25.0,0.19,0.333,716,1,3.7
+🌡️ Temp: 24.81°C | Setpoint: 25.0°C | Error: 0.19
+❄️ Relay DESACTIVADO
+DATA,2069.5,24.81,25.0,0.19,0.333,716,0,3.7
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 3.7s
+DATA,2071.5,24.81,25.0,0.19,0.334,717,0,3.7
+DATA,2073.5,24.81,25.0,0.19,0.334,717,0,3.7
+🔧 Control - Error: 0.19 | Control Signal: 0.334 | OnTime: 3.3s
+CLASICO,2075.5,24.81,25.0,0.19,0.334,717,0,3.3
+DATA,2075.5,24.81,25.0,0.19,0.334,717,0,3.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 3.3s
+DATA,2077.6,24.81,25.0,0.19,0.334,718,1,3.3
+🌡️ Temp: 24.81°C | Setpoint: 25.0°C | Error: 0.19
+❄️ Relay DESACTIVADO
+DATA,2079.6,24.81,25.0,0.19,0.334,718,0,3.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 3.3s
+DATA,2081.6,24.81,25.0,0.19,0.334,719,0,3.3
+DATA,2083.6,24.87,25.0,0.13,0.294,719,0,3.3
+🔧 Control - Error: 0.13 | Control Signal: 0.294 | OnTime: 2.9s
+CLASICO,2085.6,24.87,25.0,0.13,0.294,719,0,2.9
+DATA,2085.6,24.87,25.0,0.13,0.294,719,0,2.9
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 2.9s
+DATA,2087.6,24.87,25.0,0.13,0.294,719,1,2.9
+🌡️ Temp: 24.87°C | Setpoint: 25.0°C | Error: 0.13
+❄️ Relay DESACTIVADO
+DATA,2089.6,24.87,25.0,0.13,0.294,720,0,2.9
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 2.9s
+DATA,2091.6,24.87,25.0,0.13,0.294,720,0,2.9
+DATA,2093.6,24.87,25.0,0.13,0.294,720,0,2.9
+🔧 Control - Error: 0.06 | Control Signal: 0.253 | OnTime: 2.5s
+CLASICO,2095.6,24.94,25.0,0.06,0.253,720,0,2.5
+DATA,2095.6,24.94,25.0,0.06,0.253,720,0,2.5
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 2.5s
+DATA,2097.6,24.87,25.0,0.13,0.294,720,1,2.5
+🌡️ Temp: 24.94°C | Setpoint: 25.0°C | Error: 0.06
+❄️ Relay DESACTIVADO
+DATA,2099.6,24.94,25.0,0.06,0.253,721,0,2.5
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 2.5s
+DATA,2101.6,24.94,25.0,0.06,0.254,721,0,2.5
+DATA,2103.6,24.94,25.0,0.06,0.254,721,0,2.5
+🔧 Control - Error: 0.06 | Control Signal: 0.254 | OnTime: 2.5s
+CLASICO,2105.7,24.94,25.0,0.06,0.254,721,0,2.5
+DATA,2105.7,24.94,25.0,0.06,0.254,721,0,2.5
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 2.5s
+DATA,2107.7,24.94,25.0,0.06,0.254,721,1,2.5
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+❄️ Relay DESACTIVADO
+DATA,2109.7,25.00,25.0,0.00,0.213,721,0,2.5
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 2.5s
+DATA,2111.7,25.00,25.0,0.00,0.213,721,0,2.5
+DATA,2113.7,25.00,25.0,0.00,0.213,721,0,2.5
+🔧 Control - Error: 0.00 | Control Signal: 0.213 | OnTime: 2.1s
+CLASICO,2115.7,25.00,25.0,0.00,0.213,721,0,2.1
+DATA,2115.7,25.00,25.0,0.00,0.213,721,0,2.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 2.1s
+DATA,2117.7,25.00,25.0,0.00,0.213,721,1,2.1
+❄️ Relay DESACTIVADO
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,2119.7,25.00,25.0,0.00,0.213,721,0,2.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 2.1s
+DATA,2121.7,25.00,25.0,0.00,0.213,721,0,2.1
+DATA,2123.7,25.00,25.0,0.00,0.213,721,0,2.1
+🔧 Control - Error: 0.00 | Control Signal: 0.213 | OnTime: 2.1s
+CLASICO,2125.7,25.00,25.0,0.00,0.213,721,0,2.1
+DATA,2125.7,25.00,25.0,0.00,0.213,721,0,2.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 2.1s
+DATA,2127.7,25.06,25.0,-0.06,0.172,721,1,2.1
+❄️ Relay DESACTIVADO
+🌡️ Temp: 25.00°C | Setpoint: 25.0°C | Error: 0.00
+DATA,2129.7,25.00,25.0,0.00,0.213,721,0,2.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 2.1s
+DATA,2131.7,25.06,25.0,-0.06,0.172,721,0,2.1
+DATA,2133.8,25.06,25.0,-0.06,0.172,721,0,2.1
+🔧 Control - Error: -0.06 | Control Signal: 0.172 | OnTime: 1.7s
+CLASICO,2135.8,25.06,25.0,-0.06,0.172,721,0,1.7
+DATA,2135.8,25.06,25.0,-0.06,0.172,721,0,1.7
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.7s
+❄️ Relay DESACTIVADO
+DATA,2137.8,25.06,25.0,-0.06,0.172,720,0,1.7
+🌡️ Temp: 25.06°C | Setpoint: 25.0°C | Error: -0.06
+DATA,2139.8,25.06,25.0,-0.06,0.172,720,0,1.7
+DATA,2141.8,25.06,25.0,-0.06,0.172,720,0,1.7
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.7s
+DATA,2143.8,25.12,25.0,-0.13,0.131,720,0,1.7
+🔧 Control - Error: -0.13 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,2145.8,25.12,25.0,-0.13,0.131,720,0,1.3
+DATA,2145.8,25.12,25.0,-0.13,0.131,720,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,2147.8,25.06,25.0,-0.06,0.172,720,0,1.3
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2149.8,25.12,25.0,-0.13,0.131,719,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,2151.8,25.12,25.0,-0.13,0.131,719,0,1.3
+DATA,2153.8,25.12,25.0,-0.13,0.131,719,0,1.3
+🔧 Control - Error: -0.13 | Control Signal: 0.131 | OnTime: 1.3s
+CLASICO,2155.8,25.12,25.0,-0.13,0.131,719,0,1.3
+DATA,2155.8,25.12,25.0,-0.13,0.131,719,0,1.3
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.3s
+❄️ Relay DESACTIVADO
+DATA,2157.8,25.12,25.0,-0.13,0.131,718,0,1.3
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2159.8,25.12,25.0,-0.13,0.131,718,0,1.3
+DATA,2161.8,25.12,25.0,-0.13,0.131,718,0,1.3
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.3s
+DATA,2163.8,25.12,25.0,-0.13,0.131,718,0,1.3
+🔧 Control - Error: -0.19 | Control Signal: 0.090 | OnTime: 0.0s
+CLASICO,2165.8,25.19,25.0,-0.19,0.090,717,0,0.0
+DATA,2165.8,25.19,25.0,-0.19,0.090,717,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2167.8,25.19,25.0,-0.19,0.090,717,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2169.8,25.19,25.0,-0.19,0.090,716,0,0.0
+DATA,2171.9,25.19,25.0,-0.19,0.090,716,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2173.9,25.19,25.0,-0.19,0.090,716,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.089 | OnTime: 0.0s
+CLASICO,2175.9,25.19,25.0,-0.19,0.089,715,0,0.0
+DATA,2175.9,25.19,25.0,-0.19,0.089,715,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2177.9,25.19,25.0,-0.19,0.089,715,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2179.9,25.19,25.0,-0.19,0.089,715,0,0.0
+DATA,2181.9,25.19,25.0,-0.19,0.089,714,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2183.9,25.19,25.0,-0.19,0.089,714,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.089 | OnTime: 0.0s
+CLASICO,2185.9,25.19,25.0,-0.19,0.089,713,0,0.0
+DATA,2185.9,25.19,25.0,-0.19,0.089,713,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2187.9,25.19,25.0,-0.19,0.089,713,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2189.9,25.19,25.0,-0.19,0.089,713,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2191.9,25.19,25.0,-0.19,0.089,712,0,0.0
+DATA,2193.9,25.19,25.0,-0.19,0.088,712,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.088 | OnTime: 0.0s
+CLASICO,2195.9,25.19,25.0,-0.19,0.088,712,0,0.0
+DATA,2195.9,25.19,25.0,-0.19,0.088,712,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2197.9,25.19,25.0,-0.19,0.088,711,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2199.9,25.19,25.0,-0.19,0.088,711,0,0.0
+DATA,2201.9,25.25,25.0,-0.25,0.047,710,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2203.9,25.25,25.0,-0.25,0.047,710,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.088 | OnTime: 0.0s
+CLASICO,2205.9,25.19,25.0,-0.19,0.088,709,0,0.0
+DATA,2205.9,25.19,25.0,-0.19,0.088,709,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2207.9,25.25,25.0,-0.25,0.047,709,0,0.0
+🌡️ Temp: 25.25°C | Setpoint: 25.0°C | Error: -0.25
+DATA,2210.0,25.25,25.0,-0.25,0.047,708,0,0.0
+DATA,2212.0,25.25,25.0,-0.25,0.047,708,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2214.0,25.25,25.0,-0.25,0.046,707,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.087 | OnTime: 0.0s
+CLASICO,2216.0,25.19,25.0,-0.19,0.087,707,0,0.0
+DATA,2216.0,25.19,25.0,-0.19,0.087,707,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2218.0,25.25,25.0,-0.25,0.046,707,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2220.0,25.19,25.0,-0.19,0.087,706,0,0.0
+DATA,2222.0,25.25,25.0,-0.25,0.046,706,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2224.0,25.25,25.0,-0.25,0.046,705,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.046 | OnTime: 0.0s
+CLASICO,2226.0,25.25,25.0,-0.25,0.046,705,0,0.0
+DATA,2226.0,25.25,25.0,-0.25,0.046,705,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2228.0,25.25,25.0,-0.25,0.046,704,0,0.0
+🌡️ Temp: 25.25°C | Setpoint: 25.0°C | Error: -0.25
+DATA,2230.0,25.25,25.0,-0.25,0.045,704,0,0.0
+DATA,2232.0,25.25,25.0,-0.25,0.045,703,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2234.0,25.25,25.0,-0.25,0.045,703,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.045 | OnTime: 0.0s
+CLASICO,2236.0,25.25,25.0,-0.25,0.045,702,0,0.0
+DATA,2236.0,25.25,25.0,-0.25,0.045,702,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2238.0,25.25,25.0,-0.25,0.045,702,0,0.0
+🌡️ Temp: 25.25°C | Setpoint: 25.0°C | Error: -0.25
+DATA,2240.0,25.25,25.0,-0.25,0.045,701,0,0.0
+DATA,2242.0,25.25,25.0,-0.25,0.045,701,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2244.1,25.25,25.0,-0.25,0.044,700,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.044 | OnTime: 0.0s
+CLASICO,2246.1,25.25,25.0,-0.25,0.044,700,0,0.0
+DATA,2246.1,25.25,25.0,-0.25,0.044,700,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2248.1,25.25,25.0,-0.25,0.044,699,0,0.0
+🌡️ Temp: 25.25°C | Setpoint: 25.0°C | Error: -0.25
+DATA,2250.1,25.25,25.0,-0.25,0.044,699,0,0.0
+DATA,2252.1,25.25,25.0,-0.25,0.044,698,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2254.1,25.25,25.0,-0.25,0.044,698,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.043 | OnTime: 0.0s
+CLASICO,2256.1,25.25,25.0,-0.25,0.043,697,0,0.0
+DATA,2256.1,25.25,25.0,-0.25,0.043,697,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2258.1,25.25,25.0,-0.25,0.043,697,0,0.0
+🌡️ Temp: 25.25°C | Setpoint: 25.0°C | Error: -0.25
+DATA,2260.1,25.25,25.0,-0.25,0.043,696,0,0.0
+DATA,2262.1,25.25,25.0,-0.25,0.043,696,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2264.1,25.25,25.0,-0.25,0.043,695,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.043 | OnTime: 0.0s
+CLASICO,2266.1,25.25,25.0,-0.25,0.043,695,0,0.0
+DATA,2266.1,25.25,25.0,-0.25,0.043,695,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2268.1,25.25,25.0,-0.25,0.043,694,0,0.0
+🌡️ Temp: 25.25°C | Setpoint: 25.0°C | Error: -0.25
+DATA,2270.1,25.25,25.0,-0.25,0.042,694,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2272.1,25.25,25.0,-0.25,0.042,693,0,0.0
+DATA,2274.1,25.25,25.0,-0.25,0.042,693,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.042 | OnTime: 0.0s
+CLASICO,2276.1,25.25,25.0,-0.25,0.042,692,0,0.0
+DATA,2276.1,25.25,25.0,-0.25,0.042,692,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2278.1,25.25,25.0,-0.25,0.042,692,0,0.0
+🌡️ Temp: 25.25°C | Setpoint: 25.0°C | Error: -0.25
+DATA,2280.2,25.25,25.0,-0.25,0.042,691,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2282.2,25.25,25.0,-0.25,0.042,691,0,0.0
+                                                                ATA,2284.2,25.25,25.0,-0.25,0.041,690,0,0.0
+                                                                    Control - Error: -0.25 | Control Signal: 0.041 | OnTime: 0.0s
+CLASICO,2286.2,25.25,25.0,-0.25,0.041,690,0,0.0
+DATA,2286.2,25.25,25.0,-0.25,0.041,690,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2288.2,25.25,25.0,-0.25,0.041,689,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2290.2,25.19,25.0,-0.19,0.082,689,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2292.2,25.19,25.0,-0.19,0.082,688,0,0.0
+DATA,2294.2,25.19,25.0,-0.19,0.081,688,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.041 | OnTime: 0.0s
+CLASICO,2296.2,25.25,25.0,-0.25,0.041,688,0,0.0
+DATA,2296.2,25.25,25.0,-0.25,0.041,688,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2298.2,25.25,25.0,-0.25,0.040,687,0,0.0
+🌡️ Temp: 25.25°C | Setpoint: 25.0°C | Error: -0.25
+DATA,2300.2,25.25,25.0,-0.25,0.040,687,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2302.2,25.25,25.0,-0.25,0.040,686,0,0.0
+DATA,2304.2,25.19,25.0,-0.19,0.081,686,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.040 | OnTime: 0.0s
+CLASICO,2306.2,25.25,25.0,-0.25,0.040,685,0,0.0
+DATA,2306.2,25.25,25.0,-0.25,0.040,685,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2308.2,25.25,25.0,-0.25,0.040,685,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2310.2,25.19,25.0,-0.19,0.080,684,0,0.0
+                                                                  Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2312.2,25.25,25.0,-0.25,0.040,684,0,0.0
+DATA,2314.2,25.25,25.0,-0.25,0.039,683,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.039 | OnTime: 0.0s
+CLASICO,2316.3,25.25,25.0,-0.25,0.039,683,0,0.0
+DATA,2316.3,25.25,25.0,-0.25,0.039,683,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2318.3,25.25,25.0,-0.25,0.039,682,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2320.3,25.19,25.0,-0.19,0.080,682,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2322.3,25.25,25.0,-0.25,0.039,681,0,0.0
+DATA,2324.3,25.25,25.0,-0.25,0.039,681,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.079 | OnTime: 0.0s
+CLASICO,2326.3,25.19,25.0,-0.19,0.079,681,0,0.0
+DATA,2326.3,25.19,25.0,-0.19,0.079,681,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2328.3,25.25,25.0,-0.25,0.038,680,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2330.3,25.19,25.0,-0.19,0.079,680,0,0.0
+DATA,2332.3,25.19,25.0,-0.19,0.079,679,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+                                                                TA,2334.3,25.19,25.0,-0.19,0.079,679,0,0.0
+🔧 Control - Error: -0.25 | Control Signal: 0.038 | OnTime: 0.0s
+CLASICO,2336.3,25.25,25.0,-0.25,0.038,678,0,0.0
+DATA,2336.3,25.25,25.0,-0.25,0.038,678,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2338.3,25.19,25.0,-0.19,0.078,678,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2340.3,25.19,25.0,-0.19,0.078,678,0,0.0
+                                                                TA,2342.3,25.19,25.0,-0.19,0.078,677,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2344.3,25.19,25.0,-0.19,0.078,677,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.078 | OnTime: 0.0s
+CLASICO,2346.3,25.19,25.0,-0.19,0.078,677,0,0.0
+DATA,2346.3,25.19,25.0,-0.19,0.078,677,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2348.3,25.19,25.0,-0.19,0.078,676,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2350.3,25.19,25.0,-0.19,0.078,676,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2352.3,25.19,25.0,-0.19,0.078,675,0,0.0
+DATA,2354.4,25.19,25.0,-0.19,0.078,675,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.077 | OnTime: 0.0s
+CLASICO,2356.4,25.19,25.0,-0.19,0.077,675,0,0.0
+DATA,2356.4,25.19,25.0,-0.19,0.077,675,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2358.4,25.19,25.0,-0.19,0.077,674,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2360.4,25.19,25.0,-0.19,0.077,674,0,0.0
+DATA,2362.4,25.25,25.0,-0.25,0.036,673,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2364.4,25.19,25.0,-0.19,0.077,673,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.077 | OnTime: 0.0s
+CLASICO,2366.4,25.19,25.0,-0.19,0.077,673,0,0.0
+DATA,2366.4,25.19,25.0,-0.19,0.077,673,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2368.4,25.19,25.0,-0.19,0.077,672,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2370.4,25.19,25.0,-0.19,0.077,672,0,0.0
+DATA,2372.4,25.19,25.0,-0.19,0.077,672,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2374.4,25.19,25.0,-0.19,0.076,671,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.076 | OnTime: 0.0s
+CLASICO,2376.4,25.19,25.0,-0.19,0.076,671,0,0.0
+DATA,2376.4,25.19,25.0,-0.19,0.076,671,0,0.0
+                                                                   Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2378.4,25.19,25.0,-0.19,0.076,670,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2380.4,25.19,25.0,-0.19,0.076,670,0,0.0
+DATA,2382.4,25.19,25.0,-0.19,0.076,670,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2384.5,25.19,25.0,-0.19,0.076,669,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.076 | OnTime: 0.0s
+CLASICO,2386.5,25.19,25.0,-0.19,0.076,669,0,0.0
+DATA,2386.5,25.19,25.0,-0.19,0.076,669,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2388.5,25.25,25.0,-0.25,0.035,668,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2390.5,25.19,25.0,-0.19,0.075,668,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2392.5,25.19,25.0,-0.19,0.075,668,0,0.0
+DATA,2394.5,25.19,25.0,-0.19,0.075,667,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.075 | OnTime: 0.0s
+CLASICO,2396.5,25.19,25.0,-0.19,0.075,667,0,0.0
+DATA,2396.5,25.19,25.0,-0.19,0.075,667,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2398.5,25.19,25.0,-0.19,0.075,667,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2400.5,25.19,25.0,-0.19,0.075,666,0,0.0
+DATA,2402.5,25.19,25.0,-0.19,0.075,666,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2404.5,25.19,25.0,-0.19,0.075,665,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.075 | OnTime: 0.0s
+CLASICO,2406.5,25.19,25.0,-0.19,0.075,665,0,0.0
+DATA,2406.5,25.19,25.0,-0.19,0.075,665,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2408.5,25.19,25.0,-0.19,0.074,665,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2410.5,25.19,25.0,-0.19,0.074,664,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2412.5,25.19,25.0,-0.19,0.074,664,0,0.0
+DATA,2414.6,25.19,25.0,-0.19,0.074,664,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.074 | OnTime: 0.0s
+CLASICO,2416.6,25.19,25.0,-0.19,0.074,663,0,0.0
+DATA,2416.6,25.19,25.0,-0.19,0.074,663,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2418.6,25.19,25.0,-0.19,0.074,663,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2420.6,25.19,25.0,-0.19,0.074,662,0,0.0
+DATA,2422.6,25.19,25.0,-0.19,0.074,662,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2424.6,25.19,25.0,-0.19,0.074,662,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.073 | OnTime: 0.0s
+CLASICO,2426.6,25.19,25.0,-0.19,0.073,661,0,0.0
+DATA,2426.6,25.19,25.0,-0.19,0.073,661,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2428.6,25.19,25.0,-0.19,0.073,661,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2430.6,25.19,25.0,-0.19,0.073,661,0,0.0
+DATA,2432.6,25.19,25.0,-0.19,0.073,660,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2434.6,25.19,25.0,-0.19,0.073,660,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.073 | OnTime: 0.0s
+CLASICO,2436.6,25.19,25.0,-0.19,0.073,659,0,0.0
+DATA,2436.6,25.19,25.0,-0.19,0.073,659,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2438.6,25.19,25.0,-0.19,0.073,659,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2440.6,25.19,25.0,-0.19,0.073,659,0,0.0
+DATA,2442.6,25.19,25.0,-0.19,0.073,658,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2444.6,25.19,25.0,-0.19,0.072,658,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.113 | OnTime: 1.1s
+CLASICO,2446.6,25.12,25.0,-0.13,0.113,658,0,1.1
+DATA,2446.6,25.12,25.0,-0.13,0.113,658,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2448.6,25.19,25.0,-0.19,0.072,657,0,1.1
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2450.6,25.19,25.0,-0.19,0.072,657,0,1.1
+DATA,2452.6,25.19,25.0,-0.19,0.072,657,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2454.6,25.12,25.0,-0.13,0.113,656,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.113 | OnTime: 1.1s
+CLASICO,2456.7,25.12,25.0,-0.13,0.113,656,0,1.1
+DATA,2456.7,25.12,25.0,-0.13,0.113,656,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2458.7,25.19,25.0,-0.19,0.072,656,0,1.1
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2460.7,25.19,25.0,-0.19,0.072,655,0,1.1
+DATA,2462.7,25.12,25.0,-0.13,0.112,655,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2464.7,25.19,25.0,-0.19,0.072,655,0,1.1
+🔧 Control - Error: -0.19 | Control Signal: 0.071 | OnTime: 0.0s
+CLASICO,2466.7,25.19,25.0,-0.19,0.071,654,0,0.0
+DATA,2466.7,25.19,25.0,-0.19,0.071,654,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2468.7,25.19,25.0,-0.19,0.071,654,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2470.7,25.19,25.0,-0.19,0.071,654,0,0.0
+DATA,2472.7,25.12,25.0,-0.13,0.112,653,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2474.7,25.19,25.0,-0.19,0.071,653,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.112 | OnTime: 1.1s
+CLASICO,2476.7,25.12,25.0,-0.13,0.112,653,0,1.1
+DATA,2476.7,25.12,25.0,-0.13,0.112,653,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2478.7,25.19,25.0,-0.19,0.071,652,0,1.1
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2480.7,25.19,25.0,-0.19,0.071,652,0,1.1
+DATA,2482.8,25.12,25.0,-0.13,0.111,652,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2484.8,25.19,25.0,-0.19,0.071,651,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.111 | OnTime: 1.1s
+CLASICO,2486.8,25.12,25.0,-0.13,0.111,651,0,1.1
+DATA,2486.8,25.12,25.0,-0.13,0.111,651,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2488.8,25.12,25.0,-0.13,0.111,651,0,1.1
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2490.8,25.19,25.0,-0.19,0.070,650,0,1.1
+DATA,2492.8,25.12,25.0,-0.13,0.111,650,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2494.8,25.19,25.0,-0.19,0.070,650,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.111 | OnTime: 1.1s
+CLASICO,2496.8,25.12,25.0,-0.13,0.111,650,0,1.1
+DATA,2496.8,25.12,25.0,-0.13,0.111,650,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2498.8,25.12,25.0,-0.13,0.111,649,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2500.8,25.12,25.0,-0.13,0.110,649,0,1.1
+DATA,2502.8,25.12,25.0,-0.13,0.110,649,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2504.8,25.12,25.0,-0.13,0.110,649,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.110 | OnTime: 1.1s
+CLASICO,2506.8,25.12,25.0,-0.13,0.110,648,0,1.1
+DATA,2506.8,25.12,25.0,-0.13,0.110,648,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2508.8,25.12,25.0,-0.13,0.110,648,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2510.8,25.12,25.0,-0.13,0.110,648,0,1.1
+DATA,2512.8,25.19,25.0,-0.19,0.069,647,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2514.8,25.19,25.0,-0.19,0.069,647,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.110 | OnTime: 1.1s
+CLASICO,2516.9,25.12,25.0,-0.13,0.110,647,0,1.1
+DATA,2516.9,25.12,25.0,-0.13,0.110,647,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2518.9,25.12,25.0,-0.13,0.110,647,0,1.1
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2520.9,25.19,25.0,-0.19,0.069,646,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2522.9,25.12,25.0,-0.13,0.110,646,0,1.1
+DATA,2524.9,25.12,25.0,-0.13,0.110,646,0,1.1
+🔧 Control - Error: -0.19 | Control Signal: 0.069 | OnTime: 0.0s
+CLASICO,2526.9,25.19,25.0,-0.19,0.069,645,0,0.0
+DATA,2526.9,25.19,25.0,-0.19,0.069,645,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2528.9,25.12,25.0,-0.13,0.109,645,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2530.9,25.12,25.0,-0.13,0.109,645,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2532.9,25.12,25.0,-0.13,0.109,645,0,0.0
+DATA,2534.9,25.12,25.0,-0.13,0.109,644,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.109 | OnTime: 1.1s
+CLASICO,2536.9,25.12,25.0,-0.13,0.109,644,0,1.1
+DATA,2536.9,25.12,25.0,-0.13,0.109,644,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2538.9,25.12,25.0,-0.13,0.109,644,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2540.9,25.12,25.0,-0.13,0.109,644,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2543.0,25.12,25.0,-0.13,0.109,643,0,1.1
+                                                                ATA,2545.0,25.12,25.0,-0.13,0.109,643,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.109 | OnTime: 1.1s
+CLASICO,2547.0,25.12,25.0,-0.13,0.109,643,0,1.1
+DATA,2547.0,25.12,25.0,-0.13,0.109,643,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2549.0,25.12,25.0,-0.13,0.109,643,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2551.0,25.12,25.0,-0.13,0.109,642,0,1.1
+DATA,2553.0,25.12,25.0,-0.13,0.108,642,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2555.0,25.12,25.0,-0.13,0.108,642,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.108 | OnTime: 1.1s
+CLASICO,2557.0,25.12,25.0,-0.13,0.108,642,0,1.1
+DATA,2557.0,25.12,25.0,-0.13,0.108,642,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2559.0,25.12,25.0,-0.13,0.108,641,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2561.0,25.12,25.0,-0.13,0.108,641,0,1.1
+DATA,2563.0,25.12,25.0,-0.13,0.108,641,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2565.0,25.12,25.0,-0.13,0.108,641,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.108 | OnTime: 1.1s
+CLASICO,2567.0,25.12,25.0,-0.13,0.108,640,0,1.1
+DATA,2567.0,25.12,25.0,-0.13,0.108,640,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2569.0,25.12,25.0,-0.13,0.108,640,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2571.0,25.12,25.0,-0.13,0.108,640,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2573.0,25.12,25.0,-0.13,0.108,640,0,1.1
+DATA,2575.0,25.12,25.0,-0.13,0.108,639,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.108 | OnTime: 1.1s
+CLASICO,2577.0,25.12,25.0,-0.13,0.108,639,0,1.1
+DATA,2577.0,25.12,25.0,-0.13,0.108,639,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2579.0,25.12,25.0,-0.13,0.107,639,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2581.1,25.12,25.0,-0.13,0.107,639,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2583.1,25.12,25.0,-0.13,0.107,638,0,1.1
+DATA,2585.1,25.12,25.0,-0.13,0.107,638,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.107 | OnTime: 1.1s
+CLASICO,2587.1,25.12,25.0,-0.13,0.107,638,0,1.1
+DATA,2587.1,25.12,25.0,-0.13,0.107,638,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2589.1,25.12,25.0,-0.13,0.107,638,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2591.1,25.12,25.0,-0.13,0.107,637,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2593.1,25.12,25.0,-0.13,0.107,637,0,1.1
+DATA,2595.1,25.12,25.0,-0.13,0.107,637,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.107 | OnTime: 1.1s
+CLASICO,2597.1,25.12,25.0,-0.13,0.107,637,0,1.1
+DATA,2597.1,25.12,25.0,-0.13,0.107,637,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2599.1,25.12,25.0,-0.13,0.107,636,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2601.1,25.12,25.0,-0.13,0.107,636,0,1.1
+DATA,2603.1,25.12,25.0,-0.13,0.107,636,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2605.1,25.12,25.0,-0.13,0.107,636,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.106 | OnTime: 1.1s
+CLASICO,2607.1,25.12,25.0,-0.13,0.106,635,0,1.1
+DATA,2607.1,25.12,25.0,-0.13,0.106,635,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2609.1,25.12,25.0,-0.13,0.106,635,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2611.1,25.12,25.0,-0.13,0.106,635,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2613.1,25.19,25.0,-0.19,0.066,634,0,1.1
+DATA,2615.2,25.12,25.0,-0.13,0.106,634,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.106 | OnTime: 1.1s
+CLASICO,2617.2,25.12,25.0,-0.13,0.106,634,0,1.1
+DATA,2617.2,25.12,25.0,-0.13,0.106,634,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2619.2,25.12,25.0,-0.13,0.106,634,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2621.2,25.12,25.0,-0.13,0.106,633,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2623.2,25.12,25.0,-0.13,0.106,633,0,1.1
+DATA,2625.2,25.12,25.0,-0.13,0.106,633,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.106 | OnTime: 1.1s
+CLASICO,2627.2,25.12,25.0,-0.13,0.106,633,0,1.1
+DATA,2627.2,25.12,25.0,-0.13,0.106,633,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2629.2,25.12,25.0,-0.13,0.106,632,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2631.2,25.12,25.0,-0.13,0.106,632,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2633.2,25.12,25.0,-0.13,0.105,632,0,1.1
+DATA,2635.2,25.12,25.0,-0.13,0.105,632,0,1.1
+🔧 Control - Error: -0.13 | Control Signal: 0.105 | OnTime: 1.1s
+CLASICO,2637.2,25.12,25.0,-0.13,0.105,631,0,1.1
+DATA,2637.2,25.12,25.0,-0.13,0.105,631,0,1.1
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.1s
+❄️ Relay DESACTIVADO
+DATA,2639.2,25.12,25.0,-0.13,0.105,631,0,1.1
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2641.2,25.12,25.0,-0.13,0.105,631,0,1.1
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.1s
+DATA,2643.2,25.12,25.0,-0.13,0.105,631,0,1.1
+DATA,2645.3,25.12,25.0,-0.13,0.105,630,0,1.1
+🔧 Control - Error: -0.19 | Control Signal: 0.064 | OnTime: 0.0s
+CLASICO,2647.3,25.19,25.0,-0.19,0.064,630,0,0.0
+DATA,2647.3,25.19,25.0,-0.19,0.064,630,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2649.3,25.12,25.0,-0.13,0.105,630,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2651.3,25.12,25.0,-0.13,0.105,630,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2653.3,25.12,25.0,-0.13,0.105,629,0,0.0
+DATA,2655.3,25.12,25.0,-0.13,0.105,629,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.105 | OnTime: 1.0s
+CLASICO,2657.3,25.12,25.0,-0.13,0.105,629,0,1.0
+DATA,2657.3,25.12,25.0,-0.13,0.105,629,0,1.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.0s
+❄️ Relay DESACTIVADO
+DATA,2659.3,25.12,25.0,-0.13,0.104,629,0,1.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2661.3,25.12,25.0,-0.13,0.104,628,0,1.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.0s
+DATA,2663.3,25.12,25.0,-0.13,0.104,628,0,1.0
+DATA,2665.3,25.12,25.0,-0.13,0.104,628,0,1.0
+🔧 Control - Error: -0.13 | Control Signal: 0.104 | OnTime: 1.0s
+CLASICO,2667.3,25.12,25.0,-0.13,0.104,628,0,1.0
+DATA,2667.3,25.12,25.0,-0.13,0.104,628,0,1.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.0s
+❄️ Relay DESACTIVADO
+DATA,2669.3,25.12,25.0,-0.13,0.104,627,0,1.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2671.3,25.19,25.0,-0.19,0.063,627,0,1.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.0s
+DATA,2673.4,25.12,25.0,-0.13,0.104,627,0,1.0
+DATA,2675.4,25.12,25.0,-0.13,0.104,626,0,1.0
+🔧 Control - Error: -0.19 | Control Signal: 0.063 | OnTime: 0.0s
+CLASICO,2677.4,25.19,25.0,-0.19,0.063,626,0,0.0
+DATA,2677.4,25.19,25.0,-0.19,0.063,626,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2679.4,25.19,25.0,-0.19,0.063,626,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2681.4,25.19,25.0,-0.19,0.063,625,0,0.0
+DATA,2683.4,25.12,25.0,-0.13,0.103,625,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2685.4,25.19,25.0,-0.19,0.063,625,0,0.0
+🔧 Control - Error: -0.13 | Control Signal: 0.103 | OnTime: 1.0s
+CLASICO,2687.4,25.12,25.0,-0.13,0.103,624,0,1.0
+DATA,2687.4,25.12,25.0,-0.13,0.103,624,0,1.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.0s
+❄️ Relay DESACTIVADO
+DATA,2689.4,25.12,25.0,-0.13,0.103,624,0,1.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2691.4,25.12,25.0,-0.13,0.103,624,0,1.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.0s
+DATA,2693.4,25.19,25.0,-0.19,0.062,624,0,1.0
+DATA,2695.4,25.19,25.0,-0.19,0.062,623,0,1.0
+🔧 Control - Error: -0.13 | Control Signal: 0.103 | OnTime: 1.0s
+CLASICO,2697.4,25.12,25.0,-0.13,0.103,623,0,1.0
+DATA,2697.4,25.12,25.0,-0.13,0.103,623,0,1.0
+🔥 Relay ACTIVADO
+🔄 Relay State: ON | Tiempo en periodo: 1.0s | OnTime: 1.0s
+❄️ Relay DESACTIVADO
+DATA,2699.4,25.12,25.0,-0.13,0.103,623,0,1.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2701.4,25.12,25.0,-0.13,0.103,622,0,1.0
+DATA,2703.4,25.19,25.0,-0.19,0.062,622,0,1.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 1.0s
+DATA,2705.4,25.12,25.0,-0.13,0.102,622,0,1.0
+🔧 Control - Error: -0.19 | Control Signal: 0.062 | OnTime: 0.0s
+CLASICO,2707.4,25.19,25.0,-0.19,0.062,621,0,0.0
+DATA,2707.4,25.19,25.0,-0.19,0.062,621,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2709.4,25.19,25.0,-0.19,0.062,621,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2711.4,25.12,25.0,-0.13,0.102,621,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2713.5,25.19,25.0,-0.19,0.061,620,0,0.0
+DATA,2715.5,25.19,25.0,-0.19,0.061,620,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.061 | OnTime: 0.0s
+CLASICO,2717.5,25.19,25.0,-0.19,0.061,620,0,0.0
+DATA,2717.5,25.19,25.0,-0.19,0.061,620,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2719.5,25.19,25.0,-0.19,0.061,619,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2721.5,25.19,25.0,-0.19,0.061,619,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2723.5,25.12,25.0,-0.13,0.102,619,0,0.0
+DATA,2725.5,25.19,25.0,-0.19,0.061,618,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.061 | OnTime: 0.0s
+CLASICO,2727.5,25.19,25.0,-0.19,0.061,618,0,0.0
+DATA,2727.5,25.19,25.0,-0.19,0.061,618,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2729.5,25.19,25.0,-0.19,0.061,618,0,0.0
+🌡️ Temp: 25.12°C | Setpoint: 25.0°C | Error: -0.13
+DATA,2731.5,25.12,25.0,-0.13,0.101,617,0,0.0
+DATA,2733.5,25.19,25.0,-0.19,0.060,617,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2735.5,25.19,25.0,-0.19,0.060,617,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.060 | OnTime: 0.0s
+CLASICO,2737.5,25.19,25.0,-0.19,0.060,616,0,0.0
+DATA,2737.5,25.19,25.0,-0.19,0.060,616,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2739.5,25.19,25.0,-0.19,0.060,616,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2741.5,25.19,25.0,-0.19,0.060,615,0,0.0
+DATA,2743.5,25.19,25.0,-0.19,0.060,615,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2745.5,25.19,25.0,-0.19,0.060,615,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.060 | OnTime: 0.0s
+CLASICO,2747.5,25.19,25.0,-0.19,0.060,614,0,0.0
+DATA,2747.5,25.19,25.0,-0.19,0.060,614,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2749.5,25.19,25.0,-0.19,0.059,614,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2751.5,25.19,25.0,-0.19,0.059,614,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 6.0s | OnTime: 0.0s
+DATA,2753.6,25.19,25.0,-0.19,0.059,613,0,0.0
+DATA,2755.6,25.19,25.0,-0.19,0.059,613,0,0.0
+🔧 Control - Error: -0.19 | Control Signal: 0.059 | OnTime: 0.0s
+CLASICO,2757.6,25.19,25.0,-0.19,0.059,612,0,0.0
+DATA,2757.6,25.19,25.0,-0.19,0.059,612,0,0.0
+🔄 Relay State: OFF | Tiempo en periodo: 1.0s | OnTime: 0.0s
+DATA,2759.6,25.19,25.0,-0.19,0.059,612,0,0.0
+🌡️ Temp: 25.19°C | Setpoint: 25.0°C | Error: -0.19
+DATA,2761.6,25.19,25.0,-0.19,0.059,612,0,0.0
+FIN,2762,25.19,25.0,-0.19,0.059,612,0,0.0
+==========================================
+⏹️ CONTROL DETENIDO
+🌡️ Temperatura final: 25.19°C
+📊 Muestras recolectadas: 1378
+==========================================
+
