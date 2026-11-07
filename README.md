@@ -140,7 +140,7 @@ Los scripts de MATLAB se ejecutan desde la carpeta `matlab/` y leen los datos co
 - Falta el resto de la cámara de cultivo: el lazo de humedad con el nebulizador ultrasónico, la integración
   de los dos lazos y los ensayos con cultivos reales quedaron como trabajo futuro.
 
-## Autor
+## Contacto
 
-**Matias Vicentin** — estudiante de Ingeniería Electrónica, UTN Facultad Regional Paraná.
+**Matias Vicentin**, estudiante de Ingeniería Electrónica, UTN Facultad Regional Paraná.
 [LinkedIn](https://www.linkedin.com/in/matiasvicentin)
