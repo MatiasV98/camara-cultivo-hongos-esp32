@@ -26,9 +26,9 @@ Regional Paraná, 2025). Docentes: Martín F. Picó, Gustavo Katzenelson y Franc
 
 | Elemento | Detalle |
 |---|---|
-| Actuador | Celda Peltier TEC1-12706 conmutada por relé (PWM por software, período 10 s) |
+| Actuador | Celda Peltier TEC1-12706 conmutada por relé (modulación por software, período 10 s) |
 | Masa térmica | Reservorio de aproximadamente 450 mL de agua |
-| Sensor | DS18B20 (1-Wire), muestreo cada 2 s |
+| Sensor | DS18B20 (1-Wire, 12 bits: resolución 0,0625 °C), muestreo cada 2 s |
 | Controlador | ESP32 con servidor web propio: inicio y parada de ensayos, ajuste de parámetros en línea y descarga de registros en CSV |
 
 ## 1. Identificación
@@ -66,22 +66,45 @@ $$C(s) = K_c\left(1 + \frac{1}{T_i s}\right)$$
 - **PI por IMC** (Internal Model Control): con λ = 3L = 399 s, K<sub>c</sub> = τ / [K(λ + L)] = 0,225 y T<sub>i</sub> = τ = 2928,6 s.
 - **PI clásico**: el cero del controlador cancela el polo dominante (T<sub>i</sub> = 1/|p<sub>dom</sub>| ≈ 2940 s) y la ganancia se elige sobre el lugar de raíces (K<sub>p</sub> = 0,100).
 
-Los parámetros usados en la planta se ajustaron experimentalmente a partir de esos valores de diseño.
-El firmware implementa el PI discreto con anti-windup (límite del término integral ±2000) y convierte
-la salida del controlador en un ciclo de trabajo del relé.
+Se usa la misma notación que el informe: K<sub>c</sub> para los ajustes partiendo del IMC y
+K<sub>p</sub> para el clásico.
+
+### Implementación y ajuste en planta
+
+El firmware implementa el PI discreto con anti-windup (término integral limitado a ±2000 °C·s) y
+satura la salida entre 0 y 1. Esa salida fija el tiempo de encendido del relé dentro de cada período
+de 10 s, con un mínimo de 5 s encendido y 5 s apagado. Con ese período, el relé funciona en la
+práctica como todo-nada: en los ensayos registrados cada período tuvo 0 o 10 s de encendido, y la
+Peltier enciende cuando la salida del PI supera 0,5.
+
+Con la ganancia de diseño del IMC (K<sub>c</sub> = 0,225), la acción proporcional recién llega a 0,5
+con un error de unos 2,2 °C. Eso explica en parte por qué en planta se usaron ganancias de 3 a 6
+veces mayores que las de diseño (0,6–0,7 y 0,65), con T<sub>i</sub> del orden de τ (2200–2400 s).
 
 ## 3. Resultados en planta real
 
-Ensayos con temperatura ambiente de 19 a 20 °C. Durante las pruebas se aplicaron perturbaciones
-controladas (enfriamiento súbito con un gel refrigerante), visibles como caídas bruscas de temperatura.
+Ensayos con temperatura ambiente de 19 a 20 °C. Durante cada ensayo se aplicó una perturbación
+controlada (enfriamiento súbito con un gel refrigerante), visible como una caída brusca de temperatura.
 
 | K<sub>c</sub> = 0,7, T<sub>i</sub> = 2400 s, SP = 22 °C | K<sub>c</sub> = 0,6, T<sub>i</sub> = 2200 s, SP = 25 °C | K<sub>p</sub> = 0,65, T<sub>i</sub> = 2200 s, SP = 25 °C |
 |---|---|---|
 | ![](figuras/pi_kc0.7_ti2400_sp22.png) | ![](figuras/pi_kc0.6_ti2200_sp25.png) | ![](figuras/pi_kc0.65_ti2200_sp25.png) |
 
-- Con K<sub>c</sub> = 0,6–0,7 y T<sub>i</sub> ≈ 2200–2400 s la respuesta fue suave, sin sobreimpulso significativo y con buena recuperación ante las perturbaciones.
-- Con K<sub>p</sub> = 0,65 y T<sub>i</sub> = 2200 s la respuesta fue más rápida, con un leve sobreimpulso inicial y mayor sensibilidad al ruido.
-- En los tres casos el lazo fue estable, sin oscilaciones sostenidas.
+Métricas calculadas a partir de los CSV de [`datos/lazo_cerrado/`](datos/lazo_cerrado):
+
+| Ensayo | T inicial | Llegada a SP − 0,1 °C | Máximo sobre SP | Mínimo en la perturbación | Vuelta a SP − 0,1 °C desde el mínimo | Últimos 5 min (media y rango) |
+|---|---|---|---|---|---|---|
+| K<sub>c</sub> = 0,7, SP = 22 °C | 19,75 °C | 5,5 min | +0,12 °C | 20,50 °C (−1,5 °C) | 4,0 min | 21,95 °C (21,56–22,12) |
+| K<sub>c</sub> = 0,6, SP = 25 °C | 22,00 °C | 7,5 min | +0,25 °C | 22,12 °C (−2,9 °C) | 3,3 min | 25,24 °C (25,19–25,25) |
+| K<sub>p</sub> = 0,65, SP = 25 °C | 22,69 °C | 5,9 min | +0,25 °C | 23,37 °C (−1,6 °C) | 3,9 min | 25,14 °C (25,12–25,19) |
+
+- En los tres ensayos el lazo fue estable, sin oscilaciones sostenidas. El máximo sobre la consigna
+  fue de 0,25 °C, unos 4 pasos de resolución del sensor.
+- Después de cada perturbación, la temperatura volvió a la consigna entre 3 y 4 minutos después del mínimo.
+- En los dos ensayos a 25 °C, al final del registro la temperatura quedó entre 0,1 y 0,25 °C por
+  encima de la consigna.
+- Los ensayos arrancaron de temperaturas distintas, así que los tiempos de llegada no se pueden
+  comparar directamente entre controladores.
 
 ## Estructura del repositorio
 
@@ -111,7 +134,8 @@ Los scripts de MATLAB se ejecutan desde la carpeta `matlab/` y leen los datos co
 
 ## Limitaciones y trabajo futuro
 
-- El actuador es todo-nada (relé); una etapa PWM de potencia daría mayor resolución en la acción de control.
+- El actuador es un relé y, con el período de 10 s y los tiempos mínimos de 5 s, quedó en todo-nada.
+  Un período más largo o una etapa de potencia PWM (MOSFET) darían una acción de control continua.
 - El modelo es válido alrededor del punto de operación ensayado; no representa saturaciones ni otras no linealidades.
 - Falta el resto de la cámara de cultivo: el lazo de humedad con el nebulizador ultrasónico, la integración
   de los dos lazos y los ensayos con cultivos reales quedaron como trabajo futuro.

@@ -333,36 +333,36 @@ const char* htmlPage = R"rawliteral(
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎛️ Controlador PI - Sistema Térmico</h1>
+            <h1>Controlador PI - Sistema Térmico</h1>
             <p>Control proporcional-integral para sistema Peltier + Reservorio 450ml</p>
         </div>
         
         <div id="errorContainer" style="display: none;">
             <div class="error-box">
-                <strong>⚠️ PROBLEMA DE SENSOR</strong>
+                <strong>PROBLEMA DE SENSOR</strong>
                 <div id="errorMessage">No se puede leer la temperatura</div>
             </div>
         </div>
         
         <div class="card">
-            <h2>⚙️ Configuración Controlador PI</h2>
+            <h2>Configuración Controlador PI</h2>
             
             <div class="selector-controlador">
                 <button class="btn-selector active" id="btnIMC" onclick="cambiarModo('imc')">
-                    🎯 IMC
+                    IMC
                 </button>
                 <button class="btn-selector" id="btnClasico" onclick="cambiarModo('clasico')">
-                    📊 CLÁSICO
+                    CLÁSICO
                 </button>
             </div>
             
             <div class="config-section">
                 <div class="config-box">
-                    <label class="config-label">🎯 Setpoint (°C)</label>
+                    <label class="config-label">Setpoint (°C)</label>
                     <input type="number" id="setpoint" class="config-input" step="0.1" value="25.0">
                 </div>
                 <div class="config-box">
-                    <label class="config-label">📊 Intervalo Muestreo (s)</label>
+                    <label class="config-label">Intervalo Muestreo (s)</label>
                     <input type="number" id="intervaloMuestreo" class="config-input" value="2">
                 </div>
             </div>
@@ -383,14 +383,14 @@ const char* htmlPage = R"rawliteral(
             </div>
             
             <div class="info-control">
-                <div><strong>🔧 Controlador Activo:</strong> <span id="controladorActivo">IMC</span></div>
-                <div><strong>📈 Parámetros IMC:</strong> Kc = 0.6, Ti = 2200s</div>
-                <div><strong>📊 Parámetros Clásico:</strong> Kc = 0.65, Ti = 2200s</div>
+                <div><strong>Controlador Activo:</strong> <span id="controladorActivo">IMC</span></div>
+                <div><strong>Parámetros IMC:</strong> Kc = 0.6, Ti = 2200s</div>
+                <div><strong>Parámetros Clásico:</strong> Kc = 0.65, Ti = 2200s</div>
             </div>
         </div>
 
         <div class="card">
-            <h2>📊 Estado del Sistema</h2>
+            <h2>Estado del Sistema</h2>
             
             <div class="relay-status" id="relayStatus">
                 <strong>Estado Peltier: </strong><span id="textoRelay">APAGADO</span> | 
@@ -422,7 +422,7 @@ const char* htmlPage = R"rawliteral(
             </div>
             
             <div class="datos-control">
-                <h3>📈 Datos del Controlador PI</h3>
+                <h3>Datos del Controlador PI</h3>
                 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
                     <div>
                         <div class="status-label">ERROR ACTUAL</div>
@@ -440,7 +440,7 @@ const char* htmlPage = R"rawliteral(
             </div>
             
             <div class="info-control">
-                <div><strong>🔧 Parámetros Actuales:</strong></div>
+                <div><strong>Parámetros Actuales:</strong></div>
                 <div>• <strong>Controlador:</strong> <span id="currentControlador">IMC</span></div>
                 <div>• <strong>Kc:</strong> <span id="currentKc">0.6</span> | <strong>Ti:</strong> <span id="currentTi">2200</span>s</div>
                 <div>• <strong>Periodo Control:</strong> <span id="currentPeriod">10</span>s | <strong>Ts:</strong> <span id="currentTs">2</span>s</div>
@@ -449,7 +449,7 @@ const char* htmlPage = R"rawliteral(
         </div>
 
         <div class="card">
-            <h2>🎛️ Control del Sistema</h2>
+            <h2>Control del Sistema</h2>
             <div class="control-section">
                 <div class="indicador-estado">
                     <div class="punto-estado" id="puntoEstado"></div>
@@ -457,7 +457,7 @@ const char* htmlPage = R"rawliteral(
                 </div>
                 
                 <button class="btn-control btn-iniciar" onclick="iniciarControl()" id="btnIniciar">
-                    🚀 INICIAR CONTROL PI
+                    INICIAR CONTROL PI
                 </button>
                 
                 <button class="btn-control btn-detener" onclick="detenerControl()" id="btnDetener" disabled>
@@ -465,15 +465,15 @@ const char* htmlPage = R"rawliteral(
                 </button>
                 
                 <button class="btn-control btn-manual" onclick="toggleManual()" id="btnManual">
-                    🔧 MODO MANUAL: OFF
+                    MODO MANUAL: OFF
                 </button>
 
                 <div class="manual-controls" id="manualControls" style="display: none;">
                     <button class="btn-manual-control btn-manual-on" onclick="setManualState(true)">
-                        🔥 ENCENDER PELTIER
+                        ENCENDER PELTIER
                     </button>
                     <button class="btn-manual-control btn-manual-off" onclick="setManualState(false)">
-                        ❄️ APAGAR PELTIER
+                        APAGAR PELTIER
                     </button>
                 </div>
             </div>
@@ -481,10 +481,10 @@ const char* htmlPage = R"rawliteral(
 
         <div class="footer">
             <div class="info-control" style="text-align: center;">
-                🔄 Actualizado: <span id="updateTime">--</span> | 
-                📡 <span id="sensorStatus">Conectado</span> |
-                🎯 <span id="controlMode">AUTOMÁTICO</span> |
-                📶 <span id="wifiStatus">Conectado</span>
+                Actualizado: <span id="updateTime">--</span> | 
+                <span id="sensorStatus">Conectado</span> |
+                <span id="controlMode">AUTOMÁTICO</span> |
+                <span id="wifiStatus">Conectado</span>
             </div>
         </div>
     </div>
@@ -546,7 +546,7 @@ const char* htmlPage = R"rawliteral(
                     ocultarError();
                     
                     // Actualizar estado del relay
-                    document.getElementById('textoRelay').textContent = data.relayState ? 'ENCENDIDO 🔥' : 'APAGADO ❄️';
+                    document.getElementById('textoRelay').textContent = data.relayState ? 'ENCENDIDO' : 'APAGADO';
                     document.getElementById('relayStatus').style.backgroundColor = data.relayState ? 
                         'rgba(245, 158, 11, 0.3)' : 'rgba(59, 130, 246, 0.3)';
                     
@@ -613,13 +613,13 @@ const char* htmlPage = R"rawliteral(
                         if (data.modoManual) {
                             estadoSistemaElem.textContent = 'MODO MANUAL';
                             puntoEstadoElem.className = 'punto-estado estado-manual';
-                            btnManual.textContent = '🔧 MODO MANUAL: ON';
+                            btnManual.textContent = 'MODO MANUAL: ON';
                             btnManual.className = 'btn-control btn-manual-on';
                             manualControls.style.display = 'flex';
                         } else {
                             estadoSistemaElem.textContent = 'CONTROL PI ACTIVO';
                             puntoEstadoElem.className = 'punto-estado estado-activo';
-                            btnManual.textContent = '🔧 MODO MANUAL: OFF';
+                            btnManual.textContent = 'MODO MANUAL: OFF';
                             btnManual.className = 'btn-control btn-manual';
                             manualControls.style.display = 'none';
                         }
@@ -630,7 +630,7 @@ const char* htmlPage = R"rawliteral(
                         puntoEstadoElem.className = 'punto-estado estado-inactivo';
                         btnIniciar.disabled = false;
                         btnDetener.disabled = true;
-                        btnManual.textContent = '🔧 MODO MANUAL: OFF';
+                        btnManual.textContent = 'MODO MANUAL: OFF';
                         btnManual.className = 'btn-control btn-manual';
                         manualControls.style.display = 'none';
                     }
@@ -741,7 +741,7 @@ const char* htmlPage = R"rawliteral(
 bool leerTemperatura() {
     int count = dsSensors.getDeviceCount();
     if (count == 0) {
-        Serial.println("❌ No hay sensores DS18B20 detectados");
+        Serial.println("No hay sensores DS18B20 detectados");
         sensorError = true;
         temperaturaActual = NAN;
         return false;
@@ -749,7 +749,7 @@ bool leerTemperatura() {
 
     DeviceAddress addr;
     if (!dsSensors.getAddress(addr, 0)) {
-        Serial.println("❌ No se pudo obtener dirección del sensor");
+        Serial.println("No se pudo obtener dirección del sensor");
         sensorError = true;
         temperaturaActual = NAN;
         return false;
@@ -764,7 +764,7 @@ bool leerTemperatura() {
             float t = dsSensors.getTempCByIndex(0);
             
             if (t == DEVICE_DISCONNECTED_C || t == 85.0 || t == -127.0) {
-                Serial.println("❌ Lectura inválida del sensor");
+                Serial.println("Lectura inválida del sensor");
                 sensorError = true;
                 temperaturaActual = NAN;
                 return false;
@@ -785,7 +785,7 @@ bool leerTemperatura() {
         server.handleClient(); // Mantener el servidor web responsive
     }
     
-    Serial.println("❌ Timeout en lectura del sensor");
+    Serial.println("Timeout en lectura del sensor");
     sensorError = true;
     temperaturaActual = NAN;
     return false;
@@ -828,7 +828,7 @@ void controlPI() {
         relayOffTime = controlPeriod - onTime;
 
         // DEBUG: Información del control
-        Serial.print("🔧 Control - Error: ");
+        Serial.print("Control - Error: ");
         Serial.print(error, 2);
         Serial.print(" | Control Signal: ");
         Serial.print(controlSignal, 3);
@@ -863,10 +863,10 @@ void handleModoControl() {
         String tipo = server.arg("tipo");
         if (tipo == "imc") {
             modoControl = PI_IMC;
-            Serial.println("🔁 Modo de control cambiado a: IMC");
+            Serial.println("Modo de control cambiado a: IMC");
         } else if (tipo == "clasico") {
             modoControl = PI_CLASICO;
-            Serial.println("🔁 Modo de control cambiado a: CLÁSICO");
+            Serial.println("Modo de control cambiado a: CLÁSICO");
         }
 
         server.send(200, "text/plain", "OK");
@@ -913,7 +913,7 @@ void controlAutomatico() {
     static unsigned long lastDebug = 0;
     if (now - lastDebug >= 5000) { // Debug cada 5 segundos
         lastDebug = now;
-        Serial.print("🔄 Relay State: ");
+        Serial.print("Relay State: ");
         Serial.print(relayState ? "ON" : "OFF");
         Serial.print(" | Tiempo en periodo: ");
         Serial.print(tiempoEnPeriodo / 1000.0, 1);
@@ -926,13 +926,13 @@ void controlAutomatico() {
         if (!relayState) {
             digitalWrite(PIN_RELAY_PEL, HIGH);
             relayState = true;
-            Serial.println("🔥 Relay ACTIVADO");
+            Serial.println("Relay ACTIVADO");
         }
     } else {
         if (relayState) {
             digitalWrite(PIN_RELAY_PEL, LOW);
             relayState = false;
-            Serial.println("❄️ Relay DESACTIVADO");
+            Serial.println("Relay DESACTIVADO");
         }
     }
 }
@@ -961,11 +961,11 @@ void iniciarControl() {
     digitalWrite(PIN_RELAY_PEL, LOW);
     relayState = false;
     
-    Serial.println("\n\n🎛️ INICIANDO CONTROLADOR PI");
+    Serial.println("\n\nINICIANDO CONTROLADOR PI");
     Serial.println("==========================================");
-    Serial.printf("🎯 Setpoint: %.1f°C\n", setpoint);
-    Serial.printf("🔧 Controlador: %s\n", modoControl == PI_IMC ? "IMC" : "CLÁSICO");
-    Serial.printf("📊 Parámetros - Kc: %.3f, Ti: %.0fs, Ts: %.0fs\n", 
+    Serial.printf("Setpoint: %.1f°C\n", setpoint);
+    Serial.printf("Controlador: %s\n", modoControl == PI_IMC ? "IMC" : "CLÁSICO");
+    Serial.printf("Parámetros - Kc: %.3f, Ti: %.0fs, Ts: %.0fs\n", 
                   modoControl == PI_IMC ? Kc : Kc_clasico,
                   modoControl == PI_IMC ? Ti : Ti_clasico, Ts);
     Serial.printf("⏰ Periodo control: %lums\n", controlPeriod);
@@ -1016,8 +1016,8 @@ void detenerControl() {
     
     Serial.println("==========================================");
     Serial.println("⏹️ CONTROL DETENIDO");
-    Serial.printf("🌡️ Temperatura final: %.2f°C\n", temperaturaActual);
-    Serial.printf("📊 Muestras recolectadas: %d\n", contadorMuestras);
+    Serial.printf("Temperatura final: %.2f°C\n", temperaturaActual);
+    Serial.printf("Muestras recolectadas: %d\n", contadorMuestras);
     Serial.println("==========================================\n");
 }
 
@@ -1068,7 +1068,7 @@ void handleIniciar() {
         controlPeriod = server.arg("period").toInt() * 1000UL;
     }
     
-    Serial.printf("⚙️ Configuración - Setpoint: %.1f°C, Controlador: %s, Kc: %.3f, Ti: %.0fs, Ts: %.0fs, Period: %lums\n", 
+    Serial.printf("Configuración - Setpoint: %.1f°C, Controlador: %s, Kc: %.3f, Ti: %.0fs, Ts: %.0fs, Period: %lums\n", 
                   setpoint, modoControl == PI_IMC ? "IMC" : "CLÁSICO", Kc, Ti, Ts, controlPeriod);
     
     iniciarControl();
@@ -1093,9 +1093,9 @@ void handleManual() {
 void handleToggleManual() {
     modoManual = !modoManual;
     if (modoManual) {
-        Serial.println("🔧 MODO MANUAL ACTIVADO");
+        Serial.println("MODO MANUAL ACTIVADO");
     } else {
-        Serial.println("🤖 MODO AUTOMÁTICO ACTIVADO");
+        Serial.println("MODO AUTOMÁTICO ACTIVADO");
         // Reiniciar integral al volver a automático
         integral = 0;
     }
@@ -1116,9 +1116,9 @@ void verificarWiFi() {
         ultimaVerificacionWiFi = millis();
         
         if (WiFi.softAPgetStationNum() == 0) {
-            Serial.println("📡 No hay clientes conectados al AP");
+            Serial.println("No hay clientes conectados al AP");
         } else {
-            Serial.println("📡 Clientes conectados: " + String(WiFi.softAPgetStationNum()));
+            Serial.println("Clientes conectados: " + String(WiFi.softAPgetStationNum()));
         }
     }
 }
@@ -1128,7 +1128,7 @@ void setup() {
     Serial.begin(115200);
     delay(1000);
 
-    Serial.println("\n🎛️ SISTEMA DE CONTROL PI - PELTIER + RESERVORIO 450ml");
+    Serial.println("\nSISTEMA DE CONTROL PI - PELTIER + RESERVORIO 450ml");
     Serial.println("==========================================");
 
     // Configurar pines
@@ -1139,43 +1139,43 @@ void setup() {
     dsSensors.begin();
     
     int devCount = dsSensors.getDeviceCount();
-    Serial.print("📟 Sensores DS18B20 detectados: ");
+    Serial.print("Sensores DS18B20 detectados: ");
     Serial.println(devCount);
     
     if (devCount > 0) {
         DeviceAddress addr;
         if (dsSensors.getAddress(addr, 0)) {
             dsSensors.setResolution(addr, 12);
-            Serial.println("✅ Sensor configurado a 12 bits");
+            Serial.println("Sensor configurado a 12 bits");
             
             // Lectura inicial del sensor
             if (leerTemperatura()) {
-                Serial.print("🌡️ Temperatura inicial: ");
+                Serial.print("Temperatura inicial: ");
                 Serial.print(temperaturaActual);
                 Serial.println("°C");
             } else {
-                Serial.println("❌ Error en lectura inicial del sensor");
+                Serial.println("Error en lectura inicial del sensor");
             }
         } else {
-            Serial.println("❌ No se pudo obtener dirección del sensor");
+            Serial.println("No se pudo obtener dirección del sensor");
         }
     } else {
-        Serial.println("❌ No se detectaron sensores DS18B20");
+        Serial.println("No se detectaron sensores DS18B20");
     }
 
     // Configurar WiFi
     WiFi.mode(WIFI_AP);
     if (WiFi.softAP(ssid, password)) {
-        Serial.println("📡 Access Point configurado correctamente");
+        Serial.println("Access Point configurado correctamente");
     } else {
-        Serial.println("❌ Error configurando Access Point");
+        Serial.println("Error configurando Access Point");
     }
     
     delay(2000);
     
-    Serial.print("📶 SSID: ");
+    Serial.print("SSID: ");
     Serial.println(ssid);
-    Serial.print("🌐 IP: ");
+    Serial.print("IP: ");
     Serial.println(WiFi.softAPIP());
 
     // Servidor web
@@ -1189,13 +1189,13 @@ void setup() {
     server.on("/automatico", handleAutomatico);
     server.begin();
     
-    Serial.println("✅ Servidor web iniciado");
-    Serial.println("\n🎯 CONTROLADORES DISPONIBLES:");
+    Serial.println("Servidor web iniciado");
+    Serial.println("\nCONTROLADORES DISPONIBLES:");
     Serial.println("• IMC: Kc = 0.6, Ti = 2200s");
     Serial.println("• CLÁSICO: Kc = 0.65, Ti = 2200s");
-    Serial.println("\n📊 SALIDA CSV PARA PUTTY (solo durante control activo):");
+    Serial.println("\nSALIDA CSV PARA PUTTY (solo durante control activo):");
     Serial.println("TYPE,Time(s),Temperature(C),Setpoint(C),Error(C),ControlSignal,Integral,RelayState,OnTime(s)");
-    Serial.println("\n🚀 Sistema listo - Ve a la IP mostrada arriba");
+    Serial.println("\nSistema listo - Ve a la IP mostrada arriba");
     Serial.println("==========================================\n");
 }
 
@@ -1215,7 +1215,7 @@ void loop() {
             static unsigned long ultimoReintento = 0;
             if (ahora - ultimoReintento >= INTERVALO_REINTENTO_SENSOR) {
                 ultimoReintento = ahora;
-                Serial.println("🔄 Reintentando lectura del sensor...");
+                Serial.println("Reintentando lectura del sensor...");
                 leerTemperatura();
             }
         }
@@ -1225,7 +1225,7 @@ void loop() {
             static unsigned long lastTempDebug = 0;
             if (ahora - lastTempDebug >= 10000) { // Cada 10 segundos
                 lastTempDebug = ahora;
-                Serial.print("🌡️ Temp: ");
+                Serial.print("Temp: ");
                 Serial.print(temperaturaActual, 2);
                 Serial.print("°C | Setpoint: ");
                 Serial.print(setpoint, 1);

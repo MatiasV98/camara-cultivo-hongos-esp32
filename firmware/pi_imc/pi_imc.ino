@@ -291,19 +291,19 @@ const char* htmlPage = R"rawliteral(
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎛️ Controlador PI - Sistema Térmico</h1>
+            <h1>Controlador PI - Sistema Térmico</h1>
             <p>Control proporcional-integral para sistema Peltier + Reservorio 450ml</p>
         </div>
         
         <div class="card">
-            <h2>⚙️ Configuración Controlador PI</h2>
+            <h2>Configuración Controlador PI</h2>
             <div class="config-section">
                 <div class="config-box">
-                    <label class="config-label">🎯 Setpoint (°C)</label>
+                    <label class="config-label">Setpoint (°C)</label>
                     <input type="number" id="setpoint" class="config-input" min="15" max="40" step="0.1" value="25.0">
                 </div>
                 <div class="config-box">
-                    <label class="config-label">📊 Intervalo Muestreo (s)</label>
+                    <label class="config-label">Intervalo Muestreo (s)</label>
                     <input type="number" id="intervaloMuestreo" class="config-input" min="1" max="10" value="2">
                 </div>
             </div>
@@ -325,7 +325,7 @@ const char* htmlPage = R"rawliteral(
         </div>
 
         <div class="card">
-            <h2>📊 Estado del Sistema</h2>
+            <h2>Estado del Sistema</h2>
             
             <div class="relay-status" id="relayStatus">
                 <strong>Estado Peltier: </strong><span id="textoRelay">APAGADO</span> | 
@@ -357,7 +357,7 @@ const char* htmlPage = R"rawliteral(
             </div>
             
             <div class="datos-control">
-                <h3>📈 Datos del Controlador PI</h3>
+                <h3>Datos del Controlador PI</h3>
                 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
                     <div>
                         <div class="status-label">ERROR ACTUAL</div>
@@ -375,7 +375,7 @@ const char* htmlPage = R"rawliteral(
             </div>
             
             <div class="info-control">
-                <div><strong>🔧 Parámetros Actuales:</strong></div>
+                <div><strong>Parámetros Actuales:</strong></div>
                 <div>• <strong>Kc:</strong> <span id="currentKc">0.6</span> | <strong>Ti:</strong> <span id="currentTi">2200</span>s</div>
                 <div>• <strong>Periodo Control:</strong> <span id="currentPeriod">30</span>s | <strong>Ts:</strong> <span id="currentTs">2</span>s</div>
                 <div>• <strong>Ciclo Trabajo:</strong> <span id="dutyCycle">0</span>% | <strong>Estado:</strong> <span id="estadoControl">INACTIVO</span></div>
@@ -383,7 +383,7 @@ const char* htmlPage = R"rawliteral(
         </div>
 
         <div class="card">
-            <h2>🎛️ Control del Sistema</h2>
+            <h2>Control del Sistema</h2>
             <div class="control-section">
                 <div class="indicador-estado">
                     <div class="punto-estado" id="puntoEstado"></div>
@@ -391,7 +391,7 @@ const char* htmlPage = R"rawliteral(
                 </div>
                 
                 <button class="btn-control btn-iniciar" onclick="iniciarControl()" id="btnIniciar">
-                    🚀 INICIAR CONTROL PI
+                    INICIAR CONTROL PI
                 </button>
                 
                 <button class="btn-control btn-detener" onclick="detenerControl()" id="btnDetener" disabled>
@@ -399,20 +399,20 @@ const char* htmlPage = R"rawliteral(
                 </button>
                 
                 <button class="btn-control btn-manual" onclick="toggleManual()" id="btnManual">
-                    🔧 MODO MANUAL: OFF
+                    MODO MANUAL: OFF
                 </button>
 
                 <div class="manual-controls" id="manualControls" style="display: none;">
                     <button class="btn-manual-control btn-manual-on" onclick="setManualState(true)">
-                        🔥 ENCENDER PELTIER
+                        ENCENDER PELTIER
                     </button>
                     <button class="btn-manual-control btn-manual-off" onclick="setManualState(false)">
-                        ❄️ APAGAR PELTIER
+                        APAGAR PELTIER
                     </button>
                 </div>
                 
                 <div class="info-control">
-                    <div><strong>📈 Controlador PI IMC (Internal Model Control):</strong></div>
+                    <div><strong>Controlador PI IMC (Internal Model Control):</strong></div>
                     <div>• <strong>Ecuación:</strong> u(t) = Kc × [e(t) + (1/Ti) × ∫e(t)dt]</div>
                     <div>• <strong>Parámetros calculados:</strong> ajuste inicial por IMC con λ = 3L (3 veces el retardo L), refinado en ensayos</div>
                     <div>• <strong>Control por relé:</strong> Modulación por ancho de pulso (PWM software)</div>
@@ -423,9 +423,9 @@ const char* htmlPage = R"rawliteral(
 
         <div class="footer">
             <div class="info-control" style="text-align: center;">
-                🔄 Actualizado: <span id="updateTime">--</span> | 
-                📡 <span id="sensorStatus">Conectado</span> |
-                🎯 <span id="controlMode">AUTOMÁTICO</span>
+                Actualizado: <span id="updateTime">--</span> | 
+                <span id="sensorStatus">Conectado</span> |
+                <span id="controlMode">AUTOMÁTICO</span>
             </div>
         </div>
     </div>
@@ -439,7 +439,7 @@ const char* htmlPage = R"rawliteral(
                 .then(r => r.json())
                 .then(data => {
                     // Actualizar estado del relay
-                    document.getElementById('textoRelay').textContent = data.relayState ? 'ENCENDIDO 🔥' : 'APAGADO ❄️';
+                    document.getElementById('textoRelay').textContent = data.relayState ? 'ENCENDIDO' : 'APAGADO';
                     document.getElementById('relayStatus').style.backgroundColor = data.relayState ? 
                         'rgba(245, 158, 11, 0.3)' : 'rgba(59, 130, 246, 0.3)';
                     
@@ -504,13 +504,13 @@ const char* htmlPage = R"rawliteral(
                         if (data.modoManual) {
                             estadoSistemaElem.textContent = 'MODO MANUAL';
                             puntoEstadoElem.className = 'punto-estado estado-manual';
-                            btnManual.textContent = '🔧 MODO MANUAL: ON';
+                            btnManual.textContent = 'MODO MANUAL: ON';
                             btnManual.className = 'btn-control btn-manual-on';
                             manualControls.style.display = 'flex';
                         } else {
                             estadoSistemaElem.textContent = 'CONTROL PI ACTIVO';
                             puntoEstadoElem.className = 'punto-estado estado-activo';
-                            btnManual.textContent = '🔧 MODO MANUAL: OFF';
+                            btnManual.textContent = 'MODO MANUAL: OFF';
                             btnManual.className = 'btn-control btn-manual';
                             manualControls.style.display = 'none';
                         }
@@ -521,7 +521,7 @@ const char* htmlPage = R"rawliteral(
                         puntoEstadoElem.className = 'punto-estado estado-inactivo';
                         btnIniciar.disabled = false;
                         btnDetener.disabled = true;
-                        btnManual.textContent = '🔧 MODO MANUAL: OFF';
+                        btnManual.textContent = 'MODO MANUAL: OFF';
                         btnManual.className = 'btn-control btn-manual';
                         manualControls.style.display = 'none';
                     }
@@ -627,11 +627,11 @@ void leerTemperatura() {
             }
             
         } else {
-            Serial.println("❌ Error leyendo sensor DS18B20");
+            Serial.println("Error leyendo sensor DS18B20");
             temperaturaActual = NAN;
         }
     } else {
-        Serial.println("❌ No hay sensores DS18B20 detectados");
+        Serial.println("No hay sensores DS18B20 detectados");
         temperaturaActual = NAN;
     }
 }
@@ -762,10 +762,10 @@ void iniciarControl() {
     digitalWrite(PIN_RELAY_PEL, LOW);
     relayState = false;
     
-    Serial.println("\n\n🎛️ INICIANDO CONTROLADOR PI");
+    Serial.println("\n\nINICIANDO CONTROLADOR PI");
     Serial.println("==========================================");
-    Serial.printf("🎯 Setpoint: %.1f°C\n", setpoint);
-    Serial.printf("🔧 Parámetros - Kc: %.3f, Ti: %.0fs, Ts: %.0fs\n", Kc, Ti, Ts);
+    Serial.printf("Setpoint: %.1f°C\n", setpoint);
+    Serial.printf("Parámetros - Kc: %.3f, Ti: %.0fs, Ts: %.0fs\n", Kc, Ti, Ts);
     Serial.printf("⏰ Periodo control: %lums\n", controlPeriod);
     
     // ENCABEZADO CSV PARA PUTTY
@@ -814,8 +814,8 @@ void detenerControl() {
     
     Serial.println("==========================================");
     Serial.println("⏹️ CONTROL DETENIDO");
-    Serial.printf("🌡️ Temperatura final: %.2f°C\n", temperaturaActual);
-    Serial.printf("📊 Muestras recolectadas: %d\n", contadorMuestras);
+    Serial.printf("Temperatura final: %.2f°C\n", temperaturaActual);
+    Serial.printf("Muestras recolectadas: %d\n", contadorMuestras);
     Serial.println("==========================================\n");
 }
 
@@ -865,7 +865,7 @@ void handleIniciar() {
         controlPeriod = server.arg("period").toInt() * 1000UL;
     }
     
-    Serial.printf("⚙️ Configuración - Setpoint: %.1f°C, Kc: %.3f, Ti: %.0fs, Ts: %.0fs, Period: %lums\n", 
+    Serial.printf("Configuración - Setpoint: %.1f°C, Kc: %.3f, Ti: %.0fs, Ts: %.0fs, Period: %lums\n", 
                   setpoint, Kc, Ti, Ts, controlPeriod);
     
     iniciarControl();
@@ -890,9 +890,9 @@ void handleManual() {
 void handleToggleManual() {
     modoManual = !modoManual;
     if (modoManual) {
-        Serial.println("🔧 MODO MANUAL ACTIVADO");
+        Serial.println("MODO MANUAL ACTIVADO");
     } else {
-        Serial.println("🤖 MODO AUTOMÁTICO ACTIVADO");
+        Serial.println("MODO AUTOMÁTICO ACTIVADO");
         // Reiniciar integral al volver a automático
         integral = 0;
     }
@@ -910,7 +910,7 @@ void setup() {
     Serial.begin(115200);
     delay(500);
     
-    Serial.println("\n🎛️ SISTEMA DE CONTROL PI - PELTIER + RESERVORIO 450ml");
+    Serial.println("\nSISTEMA DE CONTROL PI - PELTIER + RESERVORIO 450ml");
     Serial.println("==========================================");
 
     // Configurar pines
@@ -921,17 +921,17 @@ void setup() {
     dsSensors.begin();
     
     int devCount = dsSensors.getDeviceCount();
-    Serial.print("📟 Sensores DS18B20 detectados: ");
+    Serial.print("Sensores DS18B20 detectados: ");
     Serial.println(devCount);
     
     if (devCount > 0) {
         DeviceAddress addr;
         if (dsSensors.getAddress(addr, 0)) {
             dsSensors.setResolution(addr, 12);
-            Serial.println("✅ Sensor configurado a 12 bits");
+            Serial.println("Sensor configurado a 12 bits");
             
             leerTemperatura();
-            Serial.print("🌡️ Temperatura inicial: ");
+            Serial.print("Temperatura inicial: ");
             Serial.print(temperaturaActual);
             Serial.println("°C");
         }
@@ -942,9 +942,9 @@ void setup() {
     WiFi.softAP(ssid, password);
     delay(1000);
     
-    Serial.print("📡 Access Point: ");
+    Serial.print("Access Point: ");
     Serial.println(ssid);
-    Serial.print("🌐 IP: ");
+    Serial.print("IP: ");
     Serial.println(WiFi.softAPIP());
 
     // Servidor web
@@ -957,17 +957,17 @@ void setup() {
     server.on("/automatico", handleAutomatico);
     server.begin();
     
-    Serial.println("✅ Servidor web iniciado");
-    Serial.println("\n🎯 CARACTERÍSTICAS DEL CONTROLADOR:");
+    Serial.println("Servidor web iniciado");
+    Serial.println("\nCARACTERÍSTICAS DEL CONTROLADOR:");
     Serial.println("• Controlador PI basado en IMC (Internal Model Control)");
     Serial.printf("• Parámetros: Kc = %.3f, Ti = %.0fs (configurables desde la web)\n", Kc, Ti);
     Serial.println("• Modulación por ancho de pulso (PWM software)");
     Serial.println("• Anti-windup con límites ±2000");
     Serial.println("• Interfaz web para configuración en tiempo real");
     Serial.println("• Modo manual y automático");
-    Serial.println("\n📊 SALIDA CSV PARA PUTTY (solo durante control activo):");
+    Serial.println("\nSALIDA CSV PARA PUTTY (solo durante control activo):");
     Serial.println("TYPE,Time(s),Temperature(C),Setpoint(C),Error(C),ControlSignal,Integral,RelayState,OnTime(s)");
-    Serial.println("\n🚀 Sistema listo - Ve a la IP mostrada arriba");
+    Serial.println("\nSistema listo - Ve a la IP mostrada arriba");
     Serial.println("==========================================\n");
 }
 
